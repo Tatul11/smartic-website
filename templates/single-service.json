@@ -1,0 +1,786 @@
+{
+    "version": "0.4",
+    "title": "Single Service",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "1758f80e",
+            "settings": {
+                "min_height": {
+                    "unit": "px",
+                    "size": "500",
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/security-surveillance-camera-in-front-of-office-bu-2025-01-08-09-05-40-utc-e1763955876744.webp",
+                    "id": 742,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "initial",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": "0.3",
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=primary"
+                },
+                "_title": "Page Banner",
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "background_ypos": {
+                    "unit": "px",
+                    "size": -150,
+                    "sizes": []
+                },
+                "min_height_tablet": {
+                    "unit": "px",
+                    "size": "450",
+                    "sizes": []
+                },
+                "flex_direction_tablet": "row",
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "0",
+                    "left": "20",
+                    "isLinked": false
+                },
+                "background_position_mobile": "center center"
+            },
+            "elements": [
+                {
+                    "id": "70050145",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "flex-end",
+                        "flex_gap": {
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "12"
+                        },
+                        "flex_wrap": "wrap",
+                        "flex_direction_tablet": "column",
+                        "flex_align_items_tablet": "center",
+                        "flex_gap_tablet": {
+                            "column": "16",
+                            "row": "16",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "16"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "6d3e567b",
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "text": "Home",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "_id": "2c3628a",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Services",
+                                        "selected_icon": {
+                                            "value": "icon icon-right-arrow",
+                                            "library": "ekiticons"
+                                        },
+                                        "_id": "efa1b6d",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "text_indent": {
+                                    "unit": "px",
+                                    "size": "12",
+                                    "sizes": []
+                                },
+                                "icon_vertical_offset": {
+                                    "unit": "px",
+                                    "size": "1",
+                                    "sizes": []
+                                },
+                                "text_color_hover_transition": {
+                                    "unit": "s",
+                                    "size": "0.4",
+                                    "sizes": []
+                                },
+                                "_element_width": "inherit",
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=658c83b",
+                                    "icon_typography_typography": "globals\/typography?id=d7b515f",
+                                    "text_color": "globals\/colors?id=658c83b",
+                                    "text_color_hover": "globals\/colors?id=044b903"
+                                },
+                                "icon_align_tablet": "center",
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "d6d9cf1",
+                            "settings": {
+                                "title": "CCTV Installation",
+                                "header_size": "h1",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "-4",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=044b903"
+                                },
+                                "_animation": "fadeInUp",
+                                "align_mobile": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "3a40a726",
+            "settings": {
+                "flex_direction": "row",
+                "flex_gap": {
+                    "column": "64",
+                    "row": "64",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": "64"
+                },
+                "flex_wrap": "nowrap",
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "0",
+                    "bottom": "120",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "flex_direction_tablet": "column",
+                "flex_gap_tablet": {
+                    "column": "48",
+                    "row": "48",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": "48"
+                },
+                "flex_gap_mobile": {
+                    "column": "40",
+                    "row": "40",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": "40"
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "5aeac3f2",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "70",
+                            "sizes": []
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": "100",
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "269aea8e",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/shot-of-a-mature-man-installing-a-security-camera-2025-04-06-02-26-09-utc.webp",
+                                    "id": "717",
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": "100",
+                                    "sizes": []
+                                },
+                                "height": {
+                                    "unit": "px",
+                                    "size": "500",
+                                    "sizes": []
+                                },
+                                "object-fit": "cover",
+                                "height_tablet": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "height_mobile": {
+                                    "unit": "px",
+                                    "size": "300",
+                                    "sizes": []
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "43164088",
+                            "settings": {
+                                "title": "Complete Installation Support",
+                                "header_size": "h3",
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6d537af8",
+                            "settings": {
+                                "editor": "<p>Nibh curabitur hac; dui mi blandit scelerisque maecenas. Nulla orci et dui ipsum ante senectus torquent turpis. Congue magna nibh litora maecenas nibh curabitur tristique id. Nulla class erat et curae inceptos ipsum ligula natoque purus. Ullamcorper sed consequat vivamus accumsan felis metus. Etiam dictum tellus ut placerat elit sed convallis.<\/p><p>Massa magnis diam aptent nisl viverra potenti. Maecenas turpis scelerisque vehicula sociosqu, praesent urna eget nulla. Tortor maximus massa consequat auctor porta turpis parturient. Tristique nostra suspendisse curae ultricies curae maximus. Nibh aliquet nec mus commodo augue vel sagittis. Pretium dictum tempus ante phasellus lacus, nullam senectus lacus. Facilisis scelerisque primis ipsum curabitur pharetra taciti fusce elit. Tellus molestie enim hendrerit praesent quam volutpat vel sem mus.<\/p>",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-16",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "3f44e624",
+                            "settings": {
+                                "title": "Trusted Security Experts",
+                                "header_size": "h3",
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "11ca0a6",
+                            "settings": {
+                                "editor": "<p>Nibh curabitur hac; dui mi blandit scelerisque maecenas. Nulla orci et dui ipsum ante senectus torquent turpis. Congue magna nibh litora maecenas nibh curabitur tristique id. Nulla class erat et curae inceptos ipsum ligula natoque purus. Ullamcorper sed consequat vivamus accumsan felis metus. Etiam dictum tellus ut placerat elit sed convallis.<\/p>",
+                                "paragraph_spacing": {
+                                    "unit": "px",
+                                    "size": "8",
+                                    "sizes": []
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "974bbd9",
+                            "settings": {
+                                "container_type": "grid",
+                                "presetTitle": "Grid",
+                                "presetIcon": "eicon-container-grid",
+                                "content_width": "full",
+                                "grid_columns_grid": {
+                                    "unit": "fr",
+                                    "size": "2",
+                                    "sizes": []
+                                },
+                                "grid_rows_grid": {
+                                    "unit": "fr",
+                                    "size": "1",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "2171d51d",
+                                    "settings": {
+                                        "content_width": "full"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "25bdebb7",
+                                            "settings": {
+                                                "title": "Service Benefits",
+                                                "header_size": "h4",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "-4",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_animation": "fadeInUp"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1a89d771",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "Customizable Options",
+                                                        "_id": "f2db3ff"
+                                                    },
+                                                    {
+                                                        "text": "Reliable Monitoring",
+                                                        "_id": "f5cb694"
+                                                    },
+                                                    {
+                                                        "text": "Quick Installation",
+                                                        "_id": "b756ea5"
+                                                    },
+                                                    {
+                                                        "text": "Affordable Pricing",
+                                                        "_id": "491a518"
+                                                    },
+                                                    {
+                                                        "text": "Energy Efficient",
+                                                        "_id": "5122b58"
+                                                    },
+                                                    {
+                                                        "text": "Secure Connectivity",
+                                                        "_id": "89e4210"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "text_indent": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "icon_color": "globals\/colors?id=secondary"
+                                                },
+                                                "_animation": "fadeInUp"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                },
+                                {
+                                    "id": "7905afd9",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_justify_content": "center",
+                                        "flex_align_items": "center",
+                                        "overflow": "hidden",
+                                        "background_background": "slideshow",
+                                        "background_slideshow_gallery": [
+                                            {
+                                                "id": "151",
+                                                "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/security-cameras-on-dark-building-2024-09-11-21-25-17-utc.webp"
+                                            },
+                                            {
+                                                "id": "69",
+                                                "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/online-security-cctv-camera-surveillance-system-ou-2025-03-15-06-50-03-utc.webp"
+                                            },
+                                            {
+                                                "id": "677",
+                                                "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/security-camera-surveillance-installing-cctv-2025-01-16-03-05-55-utc.webp"
+                                            }
+                                        ],
+                                        "background_slideshow_slide_duration": "500",
+                                        "border_radius": {
+                                            "unit": "px",
+                                            "top": "24",
+                                            "right": "24",
+                                            "bottom": "24",
+                                            "left": "24",
+                                            "isLinked": true
+                                        },
+                                        "min_height_mobile": {
+                                            "unit": "px",
+                                            "size": "300",
+                                            "sizes": []
+                                        },
+                                        "animation": "fadeInUp",
+                                        "animation_delay": "250"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4da017f1",
+                                            "settings": {
+                                                "text": "Divider",
+                                                "__globals__": {
+                                                    "color": "globals\/colors?id=7b0abe8"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "4035b15f",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": "30",
+                            "sizes": []
+                        },
+                        "flex_gap": {
+                            "column": "48",
+                            "row": "48",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "48"
+                        },
+                        "width_tablet": {
+                            "unit": "%",
+                            "size": "100",
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "flex_direction_tablet": "row",
+                        "flex_gap_mobile": {
+                            "column": "40",
+                            "row": "40",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "40"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "63f7a220",
+                            "settings": {
+                                "content_width": "full",
+                                "overflow": "hidden",
+                                "background_background": "classic",
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "border_color": "globals\/colors?id=accent"
+                                },
+                                "animation": "fadeInUp"
+                            },
+                            "elements": [
+                                {
+                                    "id": "3e1194c9",
+                                    "settings": {
+                                        "title": "Other Services",
+                                        "header_size": "h5"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "c0c1838",
+                                    "settings": {
+                                        "icon_list": [
+                                            {
+                                                "text": "Security System Integration",
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "_id": "a8a20dc"
+                                            },
+                                            {
+                                                "text": "Alarm Systems",
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "_id": "5ae3285"
+                                            },
+                                            {
+                                                "text": "Access Control",
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "_id": "e10b8b8"
+                                            },
+                                            {
+                                                "text": "Maintenance &amp; Support",
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "_id": "61f2ee3"
+                                            },
+                                            {
+                                                "text": "Smart Home Security",
+                                                "selected_icon": {
+                                                    "value": "",
+                                                    "library": ""
+                                                },
+                                                "_id": "8179a29"
+                                            }
+                                        ],
+                                        "space_between": {
+                                            "unit": "px",
+                                            "size": "32",
+                                            "sizes": []
+                                        },
+                                        "divider": "yes",
+                                        "divider_style": "dashed",
+                                        "__globals__": {
+                                            "divider_color": "globals\/colors?id=accent"
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "icon-list",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "24da0a5f",
+                            "settings": {
+                                "content_width": "full",
+                                "min_height": {
+                                    "unit": "px",
+                                    "size": "450",
+                                    "sizes": []
+                                },
+                                "flex_justify_content": "space-between",
+                                "flex_align_items": "center",
+                                "overflow": "hidden",
+                                "background_background": "classic",
+                                "background_image": {
+                                    "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/security-cameras-on-dark-building-2024-09-11-21-25-17-utc.webp",
+                                    "id": "151",
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "background_position": "center center",
+                                "background_repeat": "no-repeat",
+                                "background_size": "cover",
+                                "background_overlay_background": "gradient",
+                                "background_overlay_opacity": {
+                                    "unit": "px",
+                                    "size": "0.6",
+                                    "sizes": []
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "background_overlay_color": "globals\/colors?id=7b0abe8",
+                                    "background_overlay_color_b": "globals\/colors?id=primary"
+                                },
+                                "min_height_tablet": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "min_height_mobile": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "animation": "fadeInUp",
+                                "animation_delay": "250"
+                            },
+                            "elements": [
+                                {
+                                    "id": "2bfe989f",
+                                    "settings": {
+                                        "title": "Any Question or Need Help?",
+                                        "header_size": "h4",
+                                        "align": "center",
+                                        "__globals__": {
+                                            "title_color": ""
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "heading",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "7c1ea847",
+                                    "settings": {
+                                        "text": "Contact Us"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "button",
+                                    "elType": "widget"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes"
+    }
+}

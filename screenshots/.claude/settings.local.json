@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:smartic.smartic.am)",
+      "WebFetch(domain:smartic.am)",
+      "Bash(curl -sSL -A Mozilla/5.0 https://smartic.smartic.am/__TRACKED_VAR__/ -o /tmp/new___TRACKED_VAR__.html -w 'HTTP %{http_code}  Size %{size_download}\\\\n')",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -)",
+      "Bash(mkdir -p /Users/tatulbagdasaryan9/Downloads/smartic-redesign)",
+      "Read(//Users/tatulbagdasaryan9/Downloads/**)"
+    ]
+  }
+}

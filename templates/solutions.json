@@ -1,0 +1,1291 @@
+{
+    "version": "0.4",
+    "title": "Solutions",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "51d00465",
+            "settings": {
+                "min_height": {
+                    "unit": "px",
+                    "size": "500",
+                    "sizes": []
+                },
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/man-put-finger-in-fingerprint-access-control-termi-2024-11-25-03-03-19-utc-1.webp",
+                    "id": 1082,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.39,
+                    "sizes": []
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=primary"
+                },
+                "_title": "Page Banner",
+                "padding": {
+                    "unit": "px",
+                    "top": "40",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "background_ypos": {
+                    "unit": "px",
+                    "size": "-600",
+                    "sizes": []
+                },
+                "min_height_tablet": {
+                    "unit": "px",
+                    "size": "450",
+                    "sizes": []
+                },
+                "flex_direction_tablet": "row",
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "0",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "5bc9776e",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "flex-end",
+                        "flex_gap": {
+                            "column": "12",
+                            "row": "12",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "12"
+                        },
+                        "flex_wrap": "wrap",
+                        "flex_direction_tablet": "column",
+                        "flex_align_items_tablet": "center",
+                        "flex_gap_tablet": {
+                            "column": "16",
+                            "row": "16",
+                            "isLinked": true,
+                            "unit": "px",
+                            "size": "16"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "167e379b",
+                            "settings": {
+                                "view": "inline",
+                                "icon_list": [
+                                    {
+                                        "text": "Home",
+                                        "selected_icon": {
+                                            "value": "",
+                                            "library": ""
+                                        },
+                                        "_id": "2c3628a",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    },
+                                    {
+                                        "text": "Solutions",
+                                        "selected_icon": {
+                                            "value": "icon icon-right-arrow",
+                                            "library": "ekiticons"
+                                        },
+                                        "_id": "efa1b6d",
+                                        "link": {
+                                            "url": "#",
+                                            "is_external": "",
+                                            "nofollow": "",
+                                            "custom_attributes": ""
+                                        }
+                                    }
+                                ],
+                                "space_between": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "icon_size": {
+                                    "unit": "px",
+                                    "size": "16",
+                                    "sizes": []
+                                },
+                                "text_indent": {
+                                    "unit": "px",
+                                    "size": "12",
+                                    "sizes": []
+                                },
+                                "icon_vertical_offset": {
+                                    "unit": "px",
+                                    "size": "1",
+                                    "sizes": []
+                                },
+                                "text_color_hover_transition": {
+                                    "unit": "s",
+                                    "size": "0.4",
+                                    "sizes": []
+                                },
+                                "_element_width": "inherit",
+                                "__globals__": {
+                                    "icon_color": "globals\/colors?id=658c83b",
+                                    "icon_typography_typography": "globals\/typography?id=d7b515f",
+                                    "text_color": "globals\/colors?id=658c83b",
+                                    "text_color_hover": "globals\/colors?id=044b903"
+                                },
+                                "icon_align_tablet": "center",
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "icon-list",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "66c0b395",
+                            "settings": {
+                                "title": "Solutions",
+                                "header_size": "h1",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "-4",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=044b903"
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1087ae10",
+                            "settings": {
+                                "paragraph_spacing": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": "400",
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=8ef9f60",
+                                    "text_color": "globals\/colors?id=044b903"
+                                },
+                                "editor": "<p>Every system is built to ensure performance, reliability, and long-term security across all environments.<\/p>",
+                                "align_tablet": "center",
+                                "_element_custom_width_tablet": {
+                                    "unit": "px",
+                                    "size": "600",
+                                    "sizes": []
+                                },
+                                "_animation": "fadeInUp",
+                                "_animation_delay": "250"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "7ca97fb4",
+            "settings": {
+                "flex_gap": {
+                    "column": "64",
+                    "row": "64",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": "64"
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "0",
+                    "bottom": "120",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "flex_gap_tablet": {
+                    "column": "48",
+                    "row": "48",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": "48"
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "60",
+                    "right": "20",
+                    "bottom": "60",
+                    "left": "20",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "70f3828c",
+                    "settings": {
+                        "content_width": "full",
+                        "flex_align_items": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "55cf76d1",
+                            "settings": {
+                                "title": "Innovative Solutions For Modern Security",
+                                "align": "center",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-10",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": "700",
+                                    "sizes": []
+                                },
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "7e3d29ff",
+                            "settings": {
+                                "align": "center",
+                                "paragraph_spacing": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": "650",
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=8ef9f60"
+                                },
+                                "editor": "<p>Securis combines intelligent design and advanced engineering to deliver world-class protection.<\/p>",
+                                "_animation": "fadeInUp"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "7f71a697",
+                    "settings": {
+                        "container_type": "grid",
+                        "presetTitle": "Grid",
+                        "presetIcon": "eicon-container-grid",
+                        "content_width": "full",
+                        "grid_columns_grid": {
+                            "unit": "fr",
+                            "size": "1",
+                            "sizes": []
+                        },
+                        "grid_rows_grid": {
+                            "unit": "fr",
+                            "size": "3",
+                            "sizes": []
+                        },
+                        "grid_gaps": {
+                            "column": "48",
+                            "row": "48",
+                            "isLinked": true,
+                            "unit": "px"
+                        },
+                        "grid_rows_grid_tablet": {
+                            "unit": "fr",
+                            "size": "3",
+                            "sizes": []
+                        },
+                        "grid_rows_grid_mobile": {
+                            "unit": "fr",
+                            "size": "1",
+                            "sizes": []
+                        },
+                        "grid_gaps_tablet": {
+                            "column": "40",
+                            "row": "40",
+                            "isLinked": true,
+                            "unit": "px"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "13360bc9",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "column": "48",
+                                    "row": "48",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "48"
+                                },
+                                "overflow": "hidden",
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "background_color": "",
+                                    "border_color": "globals\/colors?id=accent"
+                                },
+                                "flex_direction_tablet": "column",
+                                "flex_gap_tablet": {
+                                    "column": "24",
+                                    "row": "24",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "24"
+                                },
+                                "animation": "fadeInUp"
+                            },
+                            "elements": [
+                                {
+                                    "id": "3782eb56",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/security-surveillance-camera-in-front-of-office-bu-2025-01-08-09-05-40-utc.webp",
+                                            "id": "742",
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full",
+                                        "width": {
+                                            "unit": "px",
+                                            "size": "600",
+                                            "sizes": []
+                                        },
+                                        "width_tablet": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "px",
+                                            "size": "",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "420",
+                                            "sizes": []
+                                        },
+                                        "object-fit": "cover",
+                                        "_flex_size": "grow",
+                                        "height_tablet": {
+                                            "unit": "px",
+                                            "size": "350",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "300",
+                                            "sizes": []
+                                        },
+                                        "_element_width_tablet": "inherit"
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "26d808b5",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "flex-start",
+                                        "flex_direction_tablet": "row",
+                                        "flex_align_items_tablet": "flex-end",
+                                        "flex_wrap_tablet": "wrap"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "27228b73",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "",
+                                                    "id": "",
+                                                    "size": ""
+                                                },
+                                                "title_text": "Wireless Camera Network",
+                                                "description_text": "We provide flexible, wire-free systems that adapt to every environment. Each camera ensures crystal-clear footage and easy control.",
+                                                "title_size": "h4",
+                                                "text_align": "left",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "18562769",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "Long Range Coverage",
+                                                        "_id": "0bcb067"
+                                                    },
+                                                    {
+                                                        "text": "Mobile App Access",
+                                                        "_id": "233d58c"
+                                                    },
+                                                    {
+                                                        "text": "Cloud Data Backup",
+                                                        "_id": "2403f3d"
+                                                    },
+                                                    {
+                                                        "text": "Instant Alert System",
+                                                        "_id": "cb62b1b"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "text_indent": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "_flex_size": "grow"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5b095a79",
+                                            "settings": {
+                                                "text": "Learn More"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "6603d12c",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row-reverse",
+                                "flex_gap": {
+                                    "column": "48",
+                                    "row": "48",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "48"
+                                },
+                                "overflow": "hidden",
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "background_color": "",
+                                    "border_color": "globals\/colors?id=accent"
+                                },
+                                "flex_direction_tablet": "column",
+                                "flex_gap_tablet": {
+                                    "column": "24",
+                                    "row": "24",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "24"
+                                },
+                                "animation": "fadeInUp"
+                            },
+                            "elements": [
+                                {
+                                    "id": "3c5bd2b2",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/cropped-image-of-man-with-wristwatch-pushing-butto-2024-11-19-13-59-31-utc.webp",
+                                            "id": "741",
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full",
+                                        "width": {
+                                            "unit": "px",
+                                            "size": "600",
+                                            "sizes": []
+                                        },
+                                        "width_tablet": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "px",
+                                            "size": "",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "420",
+                                            "sizes": []
+                                        },
+                                        "object-fit": "cover",
+                                        "_flex_size": "grow",
+                                        "height_tablet": {
+                                            "unit": "px",
+                                            "size": "350",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "300",
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "58b14db2",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "flex-start",
+                                        "flex_direction_tablet": "row",
+                                        "flex_align_items_tablet": "flex-end",
+                                        "flex_wrap_tablet": "wrap"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "489ca85f",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "",
+                                                    "id": "",
+                                                    "size": ""
+                                                },
+                                                "title_text": "Smart Entry Control",
+                                                "description_text": "Our entry systems offer precision access for authorized personnel only. Each unit enhances safety while maintaining convenience.",
+                                                "title_size": "h4",
+                                                "text_align": "left",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "43bf9425",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "Keyless Access Options",
+                                                        "_id": "0bcb067"
+                                                    },
+                                                    {
+                                                        "text": "Fingerprint Identification",
+                                                        "_id": "233d58c"
+                                                    },
+                                                    {
+                                                        "text": "Data Tracking Logs",
+                                                        "_id": "2403f3d"
+                                                    },
+                                                    {
+                                                        "text": "System Failure Alerts",
+                                                        "_id": "cb62b1b"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "text_indent": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "_flex_size": "grow"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2551db38",
+                                            "settings": {
+                                                "text": "Learn More"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        },
+                        {
+                            "id": "6ced22ff",
+                            "settings": {
+                                "content_width": "full",
+                                "flex_direction": "row",
+                                "flex_gap": {
+                                    "column": "48",
+                                    "row": "48",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "48"
+                                },
+                                "overflow": "hidden",
+                                "border_border": "solid",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "1",
+                                    "right": "1",
+                                    "bottom": "1",
+                                    "left": "1",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "24",
+                                    "right": "24",
+                                    "bottom": "24",
+                                    "left": "24",
+                                    "isLinked": true
+                                },
+                                "padding": {
+                                    "unit": "px",
+                                    "top": "32",
+                                    "right": "32",
+                                    "bottom": "32",
+                                    "left": "32",
+                                    "isLinked": true
+                                },
+                                "__globals__": {
+                                    "background_color": "",
+                                    "border_color": "globals\/colors?id=accent"
+                                },
+                                "flex_direction_tablet": "column",
+                                "flex_gap_tablet": {
+                                    "column": "24",
+                                    "row": "24",
+                                    "isLinked": true,
+                                    "unit": "px",
+                                    "size": "24"
+                                },
+                                "animation": "fadeInUp"
+                            },
+                            "elements": [
+                                {
+                                    "id": "62a7f4cd",
+                                    "settings": {
+                                        "image": {
+                                            "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/business-data-protection-and-privacy-online-cyber-2024-12-06-09-55-46-utc.webp",
+                                            "id": "740",
+                                            "size": "",
+                                            "alt": "",
+                                            "source": "library"
+                                        },
+                                        "image_size": "full",
+                                        "width": {
+                                            "unit": "px",
+                                            "size": "600",
+                                            "sizes": []
+                                        },
+                                        "width_tablet": {
+                                            "unit": "%",
+                                            "size": "100",
+                                            "sizes": []
+                                        },
+                                        "width_mobile": {
+                                            "unit": "px",
+                                            "size": "",
+                                            "sizes": []
+                                        },
+                                        "height": {
+                                            "unit": "px",
+                                            "size": "420",
+                                            "sizes": []
+                                        },
+                                        "object-fit": "cover",
+                                        "_flex_size": "grow",
+                                        "height_tablet": {
+                                            "unit": "px",
+                                            "size": "350",
+                                            "sizes": []
+                                        },
+                                        "height_mobile": {
+                                            "unit": "px",
+                                            "size": "300",
+                                            "sizes": []
+                                        }
+                                    },
+                                    "elements": [],
+                                    "isInner": false,
+                                    "widgetType": "image",
+                                    "elType": "widget"
+                                },
+                                {
+                                    "id": "33856b8a",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "flex-start",
+                                        "flex_direction_tablet": "row",
+                                        "flex_align_items_tablet": "flex-end",
+                                        "flex_wrap_tablet": "wrap"
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "773bdf8b",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "",
+                                                    "id": "",
+                                                    "size": ""
+                                                },
+                                                "title_text": "Remote Monitoring Suite",
+                                                "description_text": "Securis enables clients to monitor multiple sites securely from anywhere. Each dashboard delivers control and live insights.",
+                                                "title_size": "h4",
+                                                "text_align": "left",
+                                                "title_bottom_space": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-box",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1384ee63",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "Secure Data Encryption",
+                                                        "_id": "0bcb067"
+                                                    },
+                                                    {
+                                                        "text": "24-Hour Live Stream",
+                                                        "_id": "233d58c"
+                                                    },
+                                                    {
+                                                        "text": "Multi-Device Support",
+                                                        "_id": "2403f3d"
+                                                    },
+                                                    {
+                                                        "text": "Automated Daily Reports",
+                                                        "_id": "cb62b1b"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "text_indent": {
+                                                    "unit": "px",
+                                                    "size": "8",
+                                                    "sizes": []
+                                                },
+                                                "_flex_size": "grow"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "541763ca",
+                                            "settings": {
+                                                "text": "Learn More"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "container"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "container"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        },
+        {
+            "id": "6e29896f",
+            "settings": {
+                "container_type": "grid",
+                "flex_direction": "row",
+                "grid_columns_grid": {
+                    "unit": "fr",
+                    "size": "2",
+                    "sizes": []
+                },
+                "grid_rows_grid": {
+                    "unit": "fr",
+                    "size": "1",
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "60",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "presetTitle": "Grid",
+                "presetIcon": "eicon-container-grid",
+                "grid_columns_grid_tablet": {
+                    "unit": "fr",
+                    "size": "1",
+                    "sizes": []
+                },
+                "grid_rows_grid_tablet": {
+                    "unit": "fr",
+                    "size": "2",
+                    "sizes": []
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "4d3d57f6",
+                    "settings": {
+                        "content_width": "full",
+                        "min_height": {
+                            "unit": "px",
+                            "size": "800",
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "overflow": "hidden",
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/businessman-opening-door-using-digital-code-panel-2025-08-27-00-02-04-utc.webp",
+                            "id": "80",
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "background_position": "initial",
+                        "background_xpos": {
+                            "unit": "px",
+                            "size": "-520",
+                            "sizes": []
+                        },
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "background_bg_width": {
+                            "unit": "px",
+                            "size": "1295",
+                            "sizes": []
+                        },
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "24",
+                            "bottom": "24",
+                            "left": "24",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "44",
+                            "right": "44",
+                            "bottom": "44",
+                            "left": "44",
+                            "isLinked": true
+                        },
+                        "min_height_tablet": {
+                            "unit": "px",
+                            "size": "500",
+                            "sizes": []
+                        },
+                        "background_xpos_mobile": {
+                            "unit": "px",
+                            "size": "-200",
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "32",
+                            "right": "32",
+                            "bottom": "32",
+                            "left": "32",
+                            "isLinked": true
+                        },
+                        "animation": "fadeInUp",
+                        "background_overlay_background": "gradient",
+                        "background_overlay_color_stop": {
+                            "unit": "%",
+                            "size": 60,
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=7b0abe8",
+                            "background_overlay_color_b": "globals\/colors?id=primary"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "3de3524f",
+                            "settings": {
+                                "title": "Secure Access, Simplified",
+                                "header_size": "h3",
+                                "align": "center",
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": "440",
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "title_color": "globals\/colors?id=044b903"
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "502d8d40",
+                            "settings": {
+                                "editor": "<p>Control who enters your space with advanced access control systems \u2014 from fingerprint scanners to smart card readers.<\/p>",
+                                "align": "center",
+                                "paragraph_spacing": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": 460,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=8ef9f60",
+                                    "text_color": "globals\/colors?id=044b903"
+                                },
+                                "_element_custom_width_tablet": {
+                                    "unit": "px",
+                                    "size": 500,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                },
+                {
+                    "id": "782373c8",
+                    "settings": {
+                        "content_width": "full",
+                        "min_height": {
+                            "unit": "px",
+                            "size": "800",
+                            "sizes": []
+                        },
+                        "flex_direction": "column",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "overflow": "hidden",
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "https:\/\/view.sociolib.com\/securis\/wp-content\/uploads\/sites\/4\/2025\/11\/cctv-security-camera-operating-outdoor-2024-12-12-22-29-42-utc.webp",
+                            "id": "79",
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "background_position": "center center",
+                        "background_xpos": {
+                            "unit": "px",
+                            "size": "-520",
+                            "sizes": []
+                        },
+                        "background_repeat": "no-repeat",
+                        "background_size": "cover",
+                        "background_bg_width": {
+                            "unit": "px",
+                            "size": "1295",
+                            "sizes": []
+                        },
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "24",
+                            "right": "24",
+                            "bottom": "24",
+                            "left": "24",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "px",
+                            "top": "44",
+                            "right": "44",
+                            "bottom": "44",
+                            "left": "44",
+                            "isLinked": true
+                        },
+                        "min_height_tablet": {
+                            "unit": "px",
+                            "size": "500",
+                            "sizes": []
+                        },
+                        "background_position_tablet": "initial",
+                        "background_ypos_tablet": {
+                            "unit": "px",
+                            "size": "-310",
+                            "sizes": []
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "32",
+                            "right": "32",
+                            "bottom": "32",
+                            "left": "32",
+                            "isLinked": true
+                        },
+                        "animation": "fadeInUp",
+                        "animation_delay": "250",
+                        "background_overlay_background": "gradient",
+                        "background_overlay_color_stop": {
+                            "unit": "%",
+                            "size": 60,
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "background_overlay_color": "globals\/colors?id=7b0abe8",
+                            "background_overlay_color_b": "globals\/colors?id=primary"
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "ef5af65",
+                            "settings": {
+                                "title": "Smarter Cameras. Safer Spaces.",
+                                "header_size": "h3",
+                                "align": "center",
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": "440",
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "title_color": ""
+                                },
+                                "_element_width_tablet": "inherit"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "25bf21d5",
+                            "settings": {
+                                "editor": "<p>Experience next-gen CCTV systems powered by AI motion detection, night vision, and cloud storage. See every detail \u2014 anytime, anywhere.<\/p>",
+                                "align": "center",
+                                "paragraph_spacing": {
+                                    "unit": "px",
+                                    "size": "0",
+                                    "sizes": []
+                                },
+                                "_element_width": "initial",
+                                "_element_custom_width": {
+                                    "unit": "px",
+                                    "size": 460,
+                                    "sizes": []
+                                },
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=8ef9f60",
+                                    "text_color": "globals\/colors?id=044b903"
+                                },
+                                "_element_custom_width_tablet": {
+                                    "unit": "px",
+                                    "size": "500",
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": true,
+                    "elType": "container"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ],
+    "page_settings": {
+        "hide_title": "yes"
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "version": "0.4",
+    "title": "Contact Form",
+    "type": "section",
+    "metadata": {
+        "template_type": "section-contact",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_canvas"
+    },
+    "content": [
+        {
+            "id": "3fc8abc9",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "7ec45455",
+                    "settings": {
+                        "mf_input_label": "First Name",
+                        "mf_input_name": "mf-text",
+                        "mf_input_placeholder": "Enter your first name",
+                        "mf_input_validation_warning_message": "This field is required.",
+                        "mf_input_background_background": "classic",
+                        "mf_input_border_border": "solid",
+                        "mf_input_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "mf_input_border_radius": {
+                            "unit": "px",
+                            "size": "8",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "mf_input_label_color": "globals\/colors?id=primary",
+                            "mf_input_label_typography_typography": "globals\/typography?id=accent",
+                            "mf_input_color": "globals\/colors?id=primary",
+                            "mf_input_background_color": "globals\/colors?id=02258f1",
+                            "mf_input_border_color": "globals\/colors?id=accent",
+                            "mf_input_typgraphy_typography": "globals\/typography?id=accent",
+                            "mf_input_place_holder_typography_typography": "globals\/typography?id=930dea1",
+                            "mf_input_placeholder_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "mf-text",
+                    "elType": "widget"
+                },
+                {
+                    "id": "712bbb82",
+                    "settings": {
+                        "mf_input_label": "Last Name",
+                        "mf_input_name": "mf-text",
+                        "mf_input_placeholder": "Enter your last name",
+                        "mf_input_validation_warning_message": "This field is required.",
+                        "mf_input_background_background": "classic",
+                        "mf_input_border_border": "solid",
+                        "mf_input_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "mf_input_border_radius": {
+                            "unit": "px",
+                            "size": "8",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "mf_input_label_color": "globals\/colors?id=primary",
+                            "mf_input_label_typography_typography": "globals\/typography?id=accent",
+                            "mf_input_color": "globals\/colors?id=primary",
+                            "mf_input_background_color": "globals\/colors?id=02258f1",
+                            "mf_input_border_color": "globals\/colors?id=accent",
+                            "mf_input_typgraphy_typography": "globals\/typography?id=accent",
+                            "mf_input_place_holder_typography_typography": "globals\/typography?id=930dea1",
+                            "mf_input_placeholder_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "mf-text",
+                    "elType": "widget"
+                },
+                {
+                    "id": "7feef116",
+                    "settings": {
+                        "mf_input_label": "Phone Number",
+                        "mf_input_name": "mf-telephone",
+                        "mf_input_placeholder": "Enter your phone number",
+                        "mf_input_validation_warning_message": "This field is required.",
+                        "mf_input_background_background": "classic",
+                        "mf_input_border_border": "solid",
+                        "mf_input_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "mf_input_border_radius": {
+                            "unit": "px",
+                            "size": "8",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "mf_input_label_color": "globals\/colors?id=primary",
+                            "mf_input_label_typography_typography": "globals\/typography?id=accent",
+                            "mf_input_color": "globals\/colors?id=primary",
+                            "mf_input_background_color": "globals\/colors?id=02258f1",
+                            "mf_input_border_color": "globals\/colors?id=accent",
+                            "mf_input_typgraphy_typography": "globals\/typography?id=accent",
+                            "mf_input_place_holder_typography_typography": "globals\/typography?id=930dea1",
+                            "mf_input_placeholder_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "mf-telephone",
+                    "elType": "widget"
+                },
+                {
+                    "id": "11583ddb",
+                    "settings": {
+                        "mf_input_label": "Email Address",
+                        "mf_input_name": "mf-email",
+                        "mf_input_placeholder": "Enter your email address",
+                        "mf_input_validation_warning_message": "This field is required.",
+                        "mf_input_background_background": "classic",
+                        "mf_input_border_border": "solid",
+                        "mf_input_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "mf_input_border_radius": {
+                            "unit": "px",
+                            "size": "8",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "mf_input_label_color": "globals\/colors?id=primary",
+                            "mf_input_label_typography_typography": "globals\/typography?id=accent",
+                            "mf_input_color": "globals\/colors?id=primary",
+                            "mf_input_background_color": "globals\/colors?id=02258f1",
+                            "mf_input_border_color": "globals\/colors?id=accent",
+                            "mf_input_typgraphy_typography": "globals\/typography?id=accent",
+                            "mf_input_place_holder_typography_typography": "globals\/typography?id=930dea1",
+                            "mf_input_placeholder_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "mf-email",
+                    "elType": "widget"
+                },
+                {
+                    "id": "10b426eb",
+                    "settings": {
+                        "mf_input_label": "Your Message",
+                        "mf_input_name": "mf-textarea",
+                        "mf_input_placeholder": "Write your message or question here",
+                        "mf_input_validation_warning_message": "This field is required.",
+                        "mf_textarea_field_height": {
+                            "unit": "px",
+                            "size": "200",
+                            "sizes": []
+                        },
+                        "mf_input_background_background": "classic",
+                        "mf_input_border_border": "solid",
+                        "mf_input_border_width": {
+                            "unit": "px",
+                            "top": "1",
+                            "right": "1",
+                            "bottom": "1",
+                            "left": "1",
+                            "isLinked": true
+                        },
+                        "mf_input_border_radius": {
+                            "unit": "px",
+                            "size": "8",
+                            "sizes": []
+                        },
+                        "__globals__": {
+                            "mf_input_label_color": "globals\/colors?id=primary",
+                            "mf_input_label_typography_typography": "globals\/typography?id=accent",
+                            "mf_input_color": "globals\/colors?id=primary",
+                            "mf_input_background_color": "globals\/colors?id=02258f1",
+                            "mf_input_border_color": "globals\/colors?id=accent",
+                            "mf_input_typgraphy_typography": "globals\/typography?id=accent",
+                            "mf_input_place_holder_typography_typography": "globals\/typography?id=930dea1",
+                            "mf_input_placeholder_color": "globals\/colors?id=accent"
+                        }
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "mf-textarea",
+                    "elType": "widget"
+                },
+                {
+                    "id": "2de0c0e5",
+                    "settings": {
+                        "text": "Send Message",
+                        "align": "justify"
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "widgetType": "button",
+                    "elType": "widget"
+                }
+            ],
+            "isInner": false,
+            "elType": "container"
+        }
+    ]
+}
