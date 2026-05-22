@@ -3,16 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smartic | Խելացի Տուն</title>
+    <title>Smartic | Ծառայություններ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="global.css">
+    
+    <style>
+        .services-hero {
+            padding: 150px 0 80px;
+            background: var(--bg-white);
+        }
+        .services-hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        .breadcrumbs {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; transition: 0.3s; }
+        .breadcrumbs a:hover { color: #111; }
+        .breadcrumbs span.current { color: #111; }
+        .services-hero h1 { font-size: 56px; margin-bottom: 20px; color: #111; line-height: 1.1; }
+        .services-hero p { font-size: 16px; color: var(--text-muted); line-height: 1.6; max-width: 450px; }
+        .services-hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .protection-services { padding: 100px 0; background: var(--bg-alt); text-align: center; }
+        .protection-services h2 { font-size: 36px; margin-bottom: 40px; color: #111; }
+        .protection-featured-img { max-width: 900px; margin: 0 auto 60px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.08); }
+        .protection-featured-img img { width: 100%; display: block; max-height: 500px; object-fit: cover; object-position: top; }
+        
+        .protection-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: left; max-width: 1100px; margin: 0 auto;}
+        .protection-card { background: var(--bg-white); border-radius: 16px; padding: 40px 30px; text-decoration: none; transition: 0.3s; display: block; border: 1px solid var(--border-light); }
+        .protection-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.05); border-color: transparent; }
+        .p-icon { width: 60px; height: 60px; border-radius: 50%; border: 1px solid #eee; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; background: #fff;}
+        .p-icon img { width: 30px; height: 30px; }
+        .protection-card h3 { font-size: 18px; color: #111; margin-bottom: 15px; font-weight: 600; }
+        .protection-card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 992px) {
+            .services-hero .container { grid-template-columns: 1fr; text-align: center; }
+            .services-hero p { margin: 0 auto; }
+            .protection-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .protection-grid { grid-template-columns: 1fr; }
+            .services-hero h1 { font-size: 40px; }
+        }
+    </style>
+
 </head>
 <body>
 
-    <!-- Header -->
+<!-- Header -->
     <header class="header" id="header">
         <div class="header-inner">
             <div class="logo">
@@ -46,64 +101,74 @@
         </div>
     </header>
 
+
     <!-- Hero Section -->
-    <section class="hero" style="padding: 150px 0 100px;">
-        <div class="hero-bg-image" style="background: url('Main/Smart Home-1.webp') center/cover no-repeat;"></div>
+    <section class="services-hero">
         <div class="container">
-            <div class="hero-content" style="text-align: center; margin: 0 auto; max-width: 800px;">
-                <span class="section-kicker" style="background: rgba(255,255,255,0.8); padding: 5px 15px; border-radius: 20px;">— ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ</span>
-                <h1 style="font-size: 64px;">Խելացի Տուն</h1>
-                <p class="hero-subtitle" style="margin: 0 auto 30px; font-size: 16px; color: #444; background: rgba(255,255,255,0.8); padding: 10px 20px; border-radius: 12px;">Կառավարեք ձեր տան բոլոր համակարգերը մեկ հպումով՝ ապահովելով առավելագույն հարմարավետություն, անվտանգություն և էներգախնայողություն։</p>
+            <div class="services-hero-content">
+                <div class="breadcrumbs">
+                    <a href="index.html">Գլխավոր</a> <span>/</span> <span class="current">Ծառայություններ</span>
+                </div>
+                <h1>Ծառայություններ</h1>
+                <p>Անվտանգության և ավտոմատացման լիարժեք լուծումներ ձեր բնակարանի կամ գրասենյակի համար։ Պաշտպանեք այն, ինչն ամենակարևորն է:</p>
+            </div>
+            <div class="services-hero-image">
+                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=1200" alt="Security Camera Installation" />
             </div>
         </div>
     </section>
 
-    <!-- Solutions Grid -->
-    <section class="systems-section" style="background: var(--bg-alt);">
+
+
+    <!-- Complete Protection Services -->
+    <section class="protection-services">
         <div class="container">
-            <div class="systems-header">
-                <h2 style="font-size: 36px; color: #222;">Խելացի տան լուծումներ</h2>
+            <h2>Լիարժեք պաշտպանության ծառայություններ</h2>
+            <div class="protection-featured-img">
+                <img src="Main/Smart Office-1.webp" alt="Smart Access Control">
             </div>
-            <div class="systems-grid">
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Lights.svg" alt="Lights"></div>
-                    <h4>Լուսավորության ավտոմատացում</h4>
-                    <p>Կառավարեք լույսերը սմարթֆոնով, ձայնով կամ սցենարներով: Ստեղծեք տարբեր տրամադրությունների լուսավորություն:</p>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Security.svg" alt="Security"></div>
-                    <h4>Անվտանգություն</h4>
-                    <p>Տեսախցիկներ, շարժման սենսորներ, ազդանշանային համակարգեր: Դիտեք ձեր տունը աշխարհի ցանկացած կետից:</p>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Curtains.svg" alt="Curtains"></div>
-                    <h4>Վարագույրների ավտոմատացում</h4>
-                    <p>Արթնացեք բնական լույսի տակ: Վարագույրները կբացվեն և կփակվեն ըստ ձեր նախընտրած ժամանակացույցի:</p>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/ClimateControl.svg" alt="Climate"></div>
-                    <h4>Կլիմայի կառավարում (Ջեռուցում/Հովացում)</h4>
-                    <p>Խելացի թերմոստատները ապահովում են իդեալական ջերմաստիճան և զգալիորեն խնայում են էներգիան:</p>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Doors.svg" alt="Access"></div>
-                    <h4>Խելացի մուտք</h4>
-                    <p>Մոռացեք բանալիների մասին: Բացեք դուռը մատնահետքով, կոդով կամ սմարթֆոնով:</p>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Application.svg" alt="App"></div>
-                    <h4>Հավելվածով կառավարում</h4>
-                    <p>Ամբողջ տունը ձեր գրպանում է: Վերահսկեք և ղեկավարեք բոլոր սարքերը մեկ միասնական հավելվածից:</p>
-                </div>
+            
+            <div class="protection-grid">
+                <a href="smart-office.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Security.svg" alt="CCTV"></div>
+                    <h3>Տեսահսկման համակարգեր</h3>
+                    <p>Բարձր որակի տեսախցիկներ՝ 360 աստիճան դիտարկման անկյունով: Հետևեք ձեր տարածքին իրական ժամանակում:</p>
+                </a>
+                <a href="smart-home.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Application.svg" alt="Integration"></div>
+                    <h3>Անվտանգության ինտեգրում</h3>
+                    <p>Բոլոր անվտանգության համակարգերը միավորված մեկ միասնական, հեշտ կառավարվող պլատֆորմում:</p>
+                </a>
+                <a href="smart-home.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Lights.svg" alt="Alarms"></div>
+                    <h3>Ահազանգման համակարգեր</h3>
+                    <p>Խելացի սենսորներ, որոնք արձագանքում են չարտոնված մուտքին, ծխին, կամ ջրի արտահոսքին:</p>
+                </a>
+                <a href="smart-office.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Doors.svg" alt="Access Control"></div>
+                    <h3>Մուտքի վերահսկում</h3>
+                    <p>Կառավարեք մուտքը քարտերով, մատնահետքերով կամ դեմքի ճանաչման համակարգով:</p>
+                </a>
+                <a href="about.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Finish.svg" alt="Maintenance"></div>
+                    <h3>Տեխնիկական սպասարկում</h3>
+                    <p>Մենք տրամադրում ենք 24/7 տեխնիկական աջակցություն և համակարգերի պարբերական ստուգումներ:</p>
+                </a>
+                <a href="smart-home.html" class="protection-card">
+                    <div class="p-icon"><img src="Smartic-Icons 2/Security.svg" alt="Smart Home"></div>
+                    <h3>Խելացի տան անվտանգություն</h3>
+                    <p>Վերահսկեք ձեր բնակարանը սմարթֆոնով՝ ապահովելով հարմարավետություն և պաշտպանություն:</p>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- PROCESS TIMELINE -->
+
+<!-- PROCESS TIMELINE -->
     <section class="timeline-section" style="background: var(--bg-white);">
         <div class="container">
             <div style="text-align: center; margin-bottom: 40px;">
-                <h2 style="font-size: 36px; color: #222;">Մեր պրոցեսը</h2>
+                <h2 style="font-size: 36px; color: #222;">Անվտանգության ապահովման քայլերը</h2>
             </div>
             <div class="timeline">
                 <div class="timeline-step">
@@ -133,91 +198,20 @@
                 </div>
             </div>
             <div style="text-align: center; margin-top: 50px;">
-                <p style="font-weight: 500; margin-bottom: 15px;">Ցանկանու՞մ եք ավտոմատացնել Ձեր տարածքը</p>
+                <p style="font-weight: 500; margin-bottom: 15px;">Հետաքրքրվա՞ծ եք պաշտպանել ձեր տարածքը</p>
                 <a href="#booking" class="contact-btn">Ամրագրել հանդիպում <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- FAQ SECTION -->
-    <section class="faq-section">
-        <div class="container">
-            <div class="faq-grid">
-                <div class="faq-left">
-                    <span class="section-kicker">— ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ</span>
-                    <h2 style="font-size: 36px; margin-bottom: 20px;">Ունե՞ք հարցեր:</h2>
-                    <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 30px;">Այստեղ հավաքել ենք ամենահաճախ տրվող հարցերի պատասխանները: Եթե չգտաք ձեր հարցի պատասխանը, կապվեք մեզ հետ:</p>
-                    <a href="#booking" class="btn-ghost">Կապվել մեզ հետ</a>
-                </div>
-                <div class="faq-right">
-                    <div class="faq-item">
-                        <div class="faq-question">Որքա՞ն է տևում համակարգի տեղադրումը: <i class="fa-solid fa-plus"></i></div>
-                        <div class="faq-answer">Տեղադրման տևողությունը կախված է նախագծի բարդությունից և տարածքի չափսից: Միջինում այն տևում է 1-ից 3 շաբաթ նախագծման և մոնտաժման ամբողջական փուլերով:</div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="faq-question">Կարո՞ղ եմ կառավարել համակարգը տանից դուրս: <i class="fa-solid fa-plus"></i></div>
-                        <div class="faq-answer">Այո, մեր բոլոր խելացի համակարգերը հնարավոր է կառավարել աշխարհի ցանկացած կետից՝ օգտագործելով հատուկ բջջային հավելվածը և ինտերնետ կապ:</div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="faq-question">Անվտանգ ե՞ն արդյոք խելացի տան համակարգերը: <i class="fa-solid fa-plus"></i></div>
-                        <div class="faq-answer">Մենք օգտագործում ենք միջազգային ստանդարտներին համապատասխանող և բարձր գաղտնագրում ունեցող համակարգեր (օրինակ՝ LifeSmart), որոնք ապահովում են ձեր տվյալների և տան առավելագույն պաշտպանությունը կիբերհարձակումներից:</div>
-                    </div>
-                    <div class="faq-item">
-                        <div class="faq-question">Ի՞նչ կլինի, եթե հոսանքն անջատվի: <i class="fa-solid fa-plus"></i></div>
-                        <div class="faq-answer">Շատ սարքեր (օրինակ՝ խելացի փականները կամ անվտանգության սենսորները) ունեն ներկառուցված մարտկոցներ: Համակարգի կենտրոնական կայանը կարող է միացվել անխափան սնուցման աղբյուրին (UPS)՝ ապահովելով անվտանգության անխափան աշխատանքը:</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BLOG SECTION -->
-    <section class="blog-section" style="background: var(--bg-alt);">
-        <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px;">
-                <div>
-                    <span class="section-kicker">— ՆՈՐՈՒԹՅՈՒՆՆԵՐ ԵՎ ՀՈԴՎԱԾՆԵՐ</span>
-                    <h2 style="font-size: 32px;">Բլոգ</h2>
-                </div>
-                <a href="#" class="btn-ghost">Բոլոր հոդվածները</a>
-            </div>
-            <div class="blog-grid">
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="nature 7 pro1.webp" alt="Blog 1" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">12 ՄԱՅԻՍ 2026</span>
-                        <h3 class="blog-title">Խելացի տան առավելությունները անվտանգության ապահովման գործում</h3>
-                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Ինչպես են ժամանակակից տեխնոլոգիաները պաշտպանում ձեր բնակարանը...</p>
-                    </div>
-                </a>
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="Main/Smart Home-1.webp" alt="Blog 2" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">05 ԱՊՐԻԼ 2026</span>
-                        <h3 class="blog-title">Էներգախնայողությունը խելացի կլիմա-կոնտրոլի միջոցով</h3>
-                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Նվազեցրեք կոմունալ ծախսերը մինչև 30% շնորհիվ ավտոմատացման...</p>
-                    </div>
-                </a>
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="Main/Smart Office-1.webp" alt="Blog 3" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">28 ՄԱՐՏ 2026</span>
-                        <h3 class="blog-title">LifeSmart ապրանքանիշի նորարարությունները հայաստանյան շուկայում</h3>
-                        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">Բացահայտեք նոր սերնդի խելացի վահանակներն ու սենսորները...</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- BOOKING CTA -->
+<!-- BOOKING CTA -->
     <section class="cta-section" id="booking" style="background: var(--bg-white); padding: 100px 0;">
         <div class="container">
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; background: #fff; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); border: 1px solid var(--border-light); padding: 50px; max-width: 1000px; margin: 0 auto;">
                 
                 <div>
-                    <h2 style="font-size: 32px; margin-bottom: 10px;">Ամրագրեք հանդիպում</h2>
-                    <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 30px;">Մենք կուսումնասիրենք Ձեր տարածքը և կառաջարկենք լավագույն լուծումները:</p>
+                    <h2 style="font-size: 32px; margin-bottom: 10px;">Ամրագրեք անվտանգության տեղադրում այսօր</h2>
+                    <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 30px;">Ամրագրեք խորհրդատվություն ձեր տարածքի պաշտպանության և ավտոմատացման համար:</p>
                     
                     <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
@@ -260,7 +254,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
