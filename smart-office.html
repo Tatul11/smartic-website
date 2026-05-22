@@ -220,21 +220,29 @@
                     <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 30px;">Մեր ինժեներները կայցելեն ձեր գրասենյակ և կմշակեն անհատականացված անվտանգության պլան:</p>
                     
                     <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
-                        <div>
-                            <label style="font-size: 12px; font-weight: 600; color: #222; margin-bottom: 5px; display: block;">Ընկերության անվանումը *</label>
-                            <input type="text" placeholder="Ձեր ընկերությունը" style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-light); border-radius: 8px; font-family: inherit; font-size: 14px;" required>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                            <input type="text" placeholder="*Անուն" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" required>
+                            <input type="email" placeholder="Էլ․ հասցե" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;">
                         </div>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
-                            <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #222; margin-bottom: 5px; display: block;">Անուն *</label>
-                                <input type="text" placeholder="Անուն" style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-light); border-radius: 8px; font-family: inherit; font-size: 14px;" required>
-                            </div>
-                            <div>
-                                <label style="font-size: 12px; font-weight: 600; color: #222; margin-bottom: 5px; display: block;">Հեռախոս *</label>
-                                <input type="tel" placeholder="+374" style="width: 100%; padding: 12px 15px; border: 1px solid var(--border-light); border-radius: 8px; font-family: inherit; font-size: 14px;" required>
-                            </div>
+                            <input type="tel" placeholder="*Հեռախոսահամար" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" required>
+                            <select style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff; color: #666; appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 15px top 50%; background-size: 10px auto;">
+                                <option value="" disabled selected>Տարածքի տեսակ</option>
+                                <option value="Առանձնատուն">Առանձնատուն</option>
+                                <option value="Բնակարան">Բնակարան</option>
+                                <option value="Գրասենյակ">Գրասենյակ</option>
+                                <option value="Կոմերցիոն Տարածք">Կոմերցիոն Տարածք</option>
+                                <option value="Այլ">Այլ</option>
+                            </select>
                         </div>
-                        <button type="submit" class="contact-btn" style="width: 100%; justify-content: center; margin-top: 10px; font-size: 16px; padding: 14px;">Ուղարկել հայտը</button>
+                        <textarea placeholder="Նշում...." style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; min-height: 120px; resize: vertical; background: #fff;"></textarea>
+                        
+                        <button type="submit" style="display: inline-flex; align-items: stretch; justify-content: space-between; background: #1a00b8; color: #fff; border: none; border-radius: 0; padding: 0; font-size: 14px; font-weight: 500; letter-spacing: 1px; cursor: pointer; max-width: fit-content; margin-top: 10px; box-shadow: 0 5px 15px rgba(26,0,184,0.3); transition: 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                            <span style="padding: 16px 30px;">ՈՒՂԱՐԿԵԼ</span>
+                            <span style="background: #000; padding: 16px 20px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-arrow-up-right" style="font-size: 16px; color: #fff; transform: rotate(-45deg);"></i>
+                            </span>
+                        </button>
                     </form>
                 </div>
                 
