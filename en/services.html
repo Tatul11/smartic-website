@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="hy">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Smartic |: Services:</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="../global.css" rel="stylesheet"/>
+<style>
+        .services-hero {
+            padding: 150px 0 80px;
+            background: var(--bg-white);
+        }
+        .services-hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        .breadcrumbs {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; transition: 0.3s; }
+        .breadcrumbs a:hover { color: #111; }
+        .breadcrumbs span.current { color: #111; }
+        .services-hero h1 { font-size: 56px; margin-bottom: 20px; color: #111; line-height: 1.1; }
+        .services-hero p { font-size: 16px; color: var(--text-muted); line-height: 1.6; max-width: 450px; }
+        .services-hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .protection-services { padding: 100px 0; background: var(--bg-alt); text-align: center; }
+        .protection-services h2 { font-size: 36px; margin-bottom: 40px; color: #111; }
+        .protection-featured-img { max-width: 900px; margin: 0 auto 60px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.08); }
+        .protection-featured-img img { width: 100%; display: block; max-height: 100%; min-height: 350px; object-fit: cover; object-position: top; }
+        
+        .protection-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: left; max-width: 1100px; margin: 0 auto;}
+        .protection-card { background: var(--bg-white); border-radius: 16px; padding: 40px 30px; text-decoration: none; transition: 0.3s; display: block; border: 1px solid var(--border-light); }
+        .protection-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.05); border-color: transparent; }
+        .p-icon { width: 60px; height: 60px; border-radius: 50%; border: 1px solid #eee; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; background: #fff;}
+        .p-icon img { width: 30px; height: 30px; }
+        .protection-card h3 { font-size: 18px; color: #111; margin-bottom: 15px; font-weight: 600; }
+        .protection-card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 992px) {
+            .services-hero .container { grid-template-columns: 1fr; text-align: center; }
+            .services-hero p { margin: 0 auto; }
+            .protection-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .protection-grid { grid-template-columns: 1fr; }
+            .services-hero h1 { font-size: 40px; }
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header class="header" id="header">
+<div class="header-inner">
+<div class="logo">
+<a href="index.html" style="display:flex; align-items:center;"><img alt="Smartic Logo" src="../logo.png"/></a>
+</div>
+<div class="mobile-menu-btn" id="mobile-menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+<nav class="nav-links" id="nav-links">
+<div class="dropdown">
+<a href="services.html" onclick="window.location.href='services.html'; return true;" style="display:flex; align-items:center; gap:5px; cursor:pointer; z-index:100; position:relative;">Services: <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+<div class="dropdown-content">
+<a href="smart-home.html">Smart Home</a>
+<a href="smart-office.html">Smart Office</a>
+</div>
+</div>
+<a href="projects.html">Projects:</a>
+<a href="about.html">About us</a>
+<a href="#">A variety</a>
+<a href="contact.html">Feedback:</a>
+<a href="blog.html">Blog:</a>
+</nav>
+<div class="header-actions" id="header-actions">
+<div style="font-size: 12px; font-weight: 600; color: #888;"><a href="../services.html">HY</a> | <span style="color: #222;">EN</span> | <a href="../ru/services.html">RU</a></div>
+<a href="tel:+37455103090" style="font-size: 14px; color: #333;"><i class="fa-solid fa-phone"></i></a>
+<a class="contact-btn" href="#booking">Book</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="services-hero">
+<div class="container">
+<div class="services-hero-content">
+<div class="breadcrumbs">
+<a href="index.html">Main:</a> <span>/</span> <span class="current">Services:</span>
+</div>
+<h1>Services:</h1>
+<p>Complete security and automation solutions for your apartment or office. Protect what matters most.</p>
+</div>
+<div class="services-hero-image">
+<img alt="Security Camera Installation" src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&amp;fit=crop&amp;q=80&amp;w=1200">
+</img></div>
+</div>
+</section>
+<!-- Complete Protection Services -->
+<section class="protection-services">
+<div class="container">
+<h2>Full protection services</h2>
+<div class="protection-featured-img">
+<img alt="Smart Access Control" src="../Main/Smart Office-1.webp"/>
+</div>
+<div class="protection-grid">
+<a class="protection-card" href="smart-office.html">
+<div class="p-icon"><img alt="CCTV" src="../Smartic-Icons 2/Security.svg"/></div>
+<h3>Video surveillance systems</h3>
+<p>High-quality cameras with a 360-degree viewing angle. Track your area in real time.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Integration" src="../Smartic-Icons 2/Application.svg"/></div>
+<h3>Security integration</h3>
+<p>All security systems integrated into one single, easy-to-manage platform.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Alarms" src="../Smartic-Icons 2/Lights.svg"/></div>
+<h3>Alarm systems</h3>
+<p>Smart sensors that react to unauthorized access, smoke, or water leaks.</p>
+</a>
+<a class="protection-card" href="smart-office.html">
+<div class="p-icon"><img alt="Access Control" src="../Smartic-Icons 2/Doors.svg"/></div>
+<h3>Access control</h3>
+<p>Control access with cards, fingerprints or facial recognition.</p>
+</a>
+<a class="protection-card" href="about.html">
+<div class="p-icon"><img alt="Maintenance" src="../Smartic-Icons 2/Finish.svg"/></div>
+<h3>Maintenance</h3>
+<p>We provide 24/7 technical support and periodic system checks.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Smart Home" src="../Smartic-Icons 2/Security.svg"/></div>
+<h3>Smart home security</h3>
+<p>Control your apartment with your smartphone, providing comfort and protection.</p>
+</a>
+</div>
+</div>
+</section>
+<!-- SMART HOME / SMART OFFICE DUO -->
+<section class="duo-section" style="padding: 100px 0; background: var(--bg-white);">
+<div class="container">
+<div class="duo-header" style="text-align: center; margin-bottom: 50px;">
+<h2 style="font-size: 36px; color: #111;">Automating your environment</h2>
+<p style="color: var(--text-muted); max-width: 600px; margin: 15px auto 0;">Choose the direction that suits you. We provide complete solutions for both residential and commercial premises.</p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1200px; margin: 0 auto;">
+<div style="border-radius: 24px; overflow: hidden; position: relative; height: 100%; min-height: 350px; background: url('Main/Smart Home-1.webp') center/cover no-repeat;">
+<div style="position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);"></div>
+<div style="position: absolute; bottom: 0; left: 0; padding: 40px; color: #fff; width: 100%;">
+<h3 style="font-size: 28px; margin-bottom: 15px;">Smart Home</h3>
+<p style="font-size: 14px; color: #eee; margin-bottom: 25px; line-height: 1.6; max-width: 400px;">Create a comfortable and safe environment for your family. Control lights, climate and security with one touch.</p>
+<a class="contact-btn" href="smart-home.html" style="background: #fff; color: #111;">View solutions</a>
+</div>
+</div>
+<div style="border-radius: 24px; overflow: hidden; position: relative; height: 100%; min-height: 350px; background: url('Main/Smart Office-1.webp') center/cover no-repeat;">
+<div style="position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);"></div>
+<div style="position: absolute; bottom: 0; left: 0; padding: 40px; color: #fff; width: 100%;">
+<h3 style="font-size: 28px; margin-bottom: 15px;">Smart Office</h3>
+<p style="font-size: 14px; color: #eee; margin-bottom: 25px; line-height: 1.6; max-width: 400px;">Ensure employee comfort and increase efficiency with smart climate, access control and state-of-the-art solutions.</p>
+<a class="contact-btn" href="smart-office.html" style="background: #fff; color: #111;">View solutions</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROCESS TIMELINE -->
+<section class="timeline-section" style="background: var(--bg-white);">
+<div class="container">
+<div style="text-align: center; margin-bottom: 40px;">
+<h2 style="font-size: 36px; color: #222;">Security steps</h2>
+</div>
+<div class="timeline">
+<div class="timeline-step">
+<div class="step-icon">01</div>
+<h4>Area design</h4>
+<p>We study the area and develop solutions.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">02</div>
+<h4>Signing the contract</h4>
+<p>Clarification of the budget and terms, signing of the contract.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">03</div>
+<h4>Drafting</h4>
+<p>Engineering works and ordering devices.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">04</div>
+<h4>Installation and assembly</h4>
+<p>Installation of devices, laying of cables.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">05</div>
+<h4>Delivery of the project</h4>
+<p>System testing and commissioning.</p>
+</div>
+</div>
+<div style="text-align: center; margin-top: 50px;">
+<p style="font-weight: 500; margin-bottom: 15px;">Interested in protecting your space?</p>
+<a class="contact-btn" href="#booking">Book an appointment <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+</section>
+<!-- BOOKING CTA -->
+<section class="cta-section" id="booking" style="background: var(--bg-white); padding: 100px 0;">
+<div class="container">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; background: #fff; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); border: 1px solid var(--border-light); padding: 50px; max-width: 1000px; margin: 0 auto;">
+<div>
+<h2 style="font-size: 32px; margin-bottom: 10px;">Book a security installation today!</h2>
+<p style="color: var(--text-muted); font-size: 14px; margin-bottom: 30px;">Book a consultation for the protection and automation of your premises.</p>
+<form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<input placeholder="*Name:" required="" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="text"/>
+<input placeholder="E-mail: address:" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="email"/>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<input placeholder="*Phone number" required="" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="tel"/>
+<select style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff; color: #666; appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 15px top 50%; background-size: 10px auto;">
+<option disabled="" selected="" value="">Area type</option>
+<option value="Առանձնատուն">Private house</option>
+<option value="Բնակարան">Apartment:</option>
+<option value="Գրասենյակ">Office</option>
+<option value="Կոմերցիոն Տարածք">Commercial Area</option>
+<option value="Այլ">Other:</option>
+</select>
+</div>
+<textarea placeholder="Note..." style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; min-height: 120px; resize: vertical; background: #fff;"></textarea>
+<button class="contact-btn" style="border: none; cursor: pointer; margin-top: 10px; padding: 14px 40px;" type="submit">SEND</button>
+</form>
+</div>
+<div style="height: 100%;">
+<div style="background: url('demobox.png') center/cover no-repeat; height: 100%; min-height: 400px; border-radius: 16px; position: relative;">
+<div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); border-radius: 16px;"></div>
+<div style="position: absolute; bottom: 30px; left: 30px; right: 30px; color: #fff;">
+<h3 style="font-size: 24px; margin-bottom: 10px;">The smart home in your area</h3>
+<p style="font-size: 14px; color: #ddd; line-height: 1.5;">Our specialists will visit your premises and demonstrate the capabilities of the system through a demo box.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="logo" style="margin-bottom: 15px;"><a href="index.html"><img alt="Smartic Logo" src="../logo.png"/></a></div>
+<p style="font-size: 13px; color: var(--text-muted);">The official representative of the LifeSmart brand in Armenia.</p>
+<div style="display: flex; gap: 15px; margin-top: 20px;">
+<a href="https://www.facebook.com/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#1877F2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.instagram.com/smartic_llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#E4405F'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.linkedin.com/company/smartic-llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#0A66C2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://t.me/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#229ED9'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+</div>
+</div>
+<div>
+<h4>Company:</h4>
+<ul>
+<li></li>
+<li><a href="about.html">About us</a></li>
+<li><a href="projects.html">Projects:</a></li>
+<li><a href="#">A variety</a>
+<a href="contact.html">Feedback:</a>
+<a href="blog.html">Blog:</a></li>
+</ul>
+</div>
+<div>
+<h4>Services:</h4>
+<ul>
+<li><a href="#">Smart home</a></li>
+<li><a href="#">Smart office</a></li>
+<li><a href="#">Security</a></li>
+<li><a href="#">Lighting</a></li>
+</ul>
+</div>
+<div>
+<h4>Contact us</h4>
+<ul>
+<li><a href="#">27/3 Rubinyants, Yerevan</a></li>
+<li><a href="#">+374 55 103 090</a></li>
+<li><a href="#">info@smartic.am</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+                © 2026 Smartic. All rights reserved.
+            </div>
+</div>
+</footer>
+<!-- STICKY WHATSAPP -->
+<a class="whatsapp-float" href="https://wa.me/37455103090" target="_blank" title="Contact on WhatsApp">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+<script>
+        // Header shadow on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 10) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const headerActions = document.getElementById('header-actions');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                headerActions.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (navLinks.classList.contains('active')) {
+                    icon.classList.replace('fa-bars', 'fa-xmark');
+                } else {
+                    icon.classList.replace('fa-xmark', 'fa-bars');
+                }
+            });
+        }
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // Close all others
+                document.querySelectorAll('.faq-item').forEach(faq => {
+                    faq.classList.remove('active');
+                    const icon = faq.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-plus');
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                    const icon = question.querySelector('i');
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

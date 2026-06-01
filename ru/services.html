@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html lang="hy">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Смартик |: Услуги:</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="../global.css" rel="stylesheet"/>
+<style>
+        .services-hero {
+            padding: 150px 0 80px;
+            background: var(--bg-white);
+        }
+        .services-hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        .breadcrumbs {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; transition: 0.3s; }
+        .breadcrumbs a:hover { color: #111; }
+        .breadcrumbs span.current { color: #111; }
+        .services-hero h1 { font-size: 56px; margin-bottom: 20px; color: #111; line-height: 1.1; }
+        .services-hero p { font-size: 16px; color: var(--text-muted); line-height: 1.6; max-width: 450px; }
+        .services-hero-image img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .protection-services { padding: 100px 0; background: var(--bg-alt); text-align: center; }
+        .protection-services h2 { font-size: 36px; margin-bottom: 40px; color: #111; }
+        .protection-featured-img { max-width: 900px; margin: 0 auto 60px; border-radius: 24px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.08); }
+        .protection-featured-img img { width: 100%; display: block; max-height: 100%; min-height: 350px; object-fit: cover; object-position: top; }
+        
+        .protection-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: left; max-width: 1100px; margin: 0 auto;}
+        .protection-card { background: var(--bg-white); border-radius: 16px; padding: 40px 30px; text-decoration: none; transition: 0.3s; display: block; border: 1px solid var(--border-light); }
+        .protection-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0,0,0,0.05); border-color: transparent; }
+        .p-icon { width: 60px; height: 60px; border-radius: 50%; border: 1px solid #eee; display: flex; align-items: center; justify-content: center; margin-bottom: 25px; background: #fff;}
+        .p-icon img { width: 30px; height: 30px; }
+        .protection-card h3 { font-size: 18px; color: #111; margin-bottom: 15px; font-weight: 600; }
+        .protection-card p { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 992px) {
+            .services-hero .container { grid-template-columns: 1fr; text-align: center; }
+            .services-hero p { margin: 0 auto; }
+            .protection-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .protection-grid { grid-template-columns: 1fr; }
+            .services-hero h1 { font-size: 40px; }
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header class="header" id="header">
+<div class="header-inner">
+<div class="logo">
+<a href="index.html" style="display:flex; align-items:center;"><img alt="Smartic Logo" src="../logo.png"/></a>
+</div>
+<div class="mobile-menu-btn" id="mobile-menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+<nav class="nav-links" id="nav-links">
+<div class="dropdown">
+<a href="services.html" onclick="window.location.href='services.html'; return true;" style="display:flex; align-items:center; gap:5px; cursor:pointer; z-index:100; position:relative;">Услуги: <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+<div class="dropdown-content">
+<a href="smart-home.html">Умный дом</a>
+<a href="smart-office.html">Умный Офис</a>
+</div>
+</div>
+<a href="projects.html">Проекты:</a>
+<a href="about.html">О нас</a>
+<a href="#">Разнообразие</a>
+<a href="contact.html">Обратная связь:</a>
+<a href="blog.html">Блог:</a>
+</nav>
+<div class="header-actions" id="header-actions">
+<div style="font-size: 12px; font-weight: 600; color: #888;"><a href="../services.html">HY</a> | <a href="../en/services.html">EN</a> | <span style="color: #222;">RU</span></div>
+<a href="tel:+37455103090" style="font-size: 14px; color: #333;"><i class="fa-solid fa-phone"></i></a>
+<a class="contact-btn" href="#booking">Книга</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="services-hero">
+<div class="container">
+<div class="services-hero-content">
+<div class="breadcrumbs">
+<a href="index.html">Основной:</a> <span>/</span> <span class="current">Услуги:</span>
+</div>
+<h1>Услуги:</h1>
+<p>Комплексные решения безопасности и автоматизации для вашей квартиры или офиса. Защитите самое важное.</p>
+</div>
+<div class="services-hero-image">
+<img alt="Security Camera Installation" src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&amp;fit=crop&amp;q=80&amp;w=1200">
+</img></div>
+</div>
+</section>
+<!-- Complete Protection Services -->
+<section class="protection-services">
+<div class="container">
+<h2>Полная защита</h2>
+<div class="protection-featured-img">
+<img alt="Smart Access Control" src="../Main/Smart Office-1.webp"/>
+</div>
+<div class="protection-grid">
+<a class="protection-card" href="smart-office.html">
+<div class="p-icon"><img alt="CCTV" src="../Smartic-Icons 2/Security.svg"/></div>
+<h3>Системы видеонаблюдения</h3>
+<p>Высококачественные камеры с углом обзора 360 градусов. Отслеживайте свой район в режиме реального времени.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Integration" src="../Smartic-Icons 2/Application.svg"/></div>
+<h3>Интеграция безопасности</h3>
+<p>Все системы безопасности интегрированы в одну единую, простую в управлении платформу.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Alarms" src="../Smartic-Icons 2/Lights.svg"/></div>
+<h3>Системы сигнализации</h3>
+<p>Умные датчики, которые реагируют на несанкционированный доступ, дым или утечку воды.</p>
+</a>
+<a class="protection-card" href="smart-office.html">
+<div class="p-icon"><img alt="Access Control" src="../Smartic-Icons 2/Doors.svg"/></div>
+<h3>Контроль доступа</h3>
+<p>Контролируйте доступ с помощью карт, отпечатков пальцев или распознавания лиц.</p>
+</a>
+<a class="protection-card" href="about.html">
+<div class="p-icon"><img alt="Maintenance" src="../Smartic-Icons 2/Finish.svg"/></div>
+<h3>Обслуживание</h3>
+<p>Мы обеспечиваем круглосуточную техническую поддержку и периодические проверки системы.</p>
+</a>
+<a class="protection-card" href="smart-home.html">
+<div class="p-icon"><img alt="Smart Home" src="../Smartic-Icons 2/Security.svg"/></div>
+<h3>Умная безопасность дома</h3>
+<p>Управляйте своей квартирой с помощью смартфона, обеспечивая комфорт и защиту.</p>
+</a>
+</div>
+</div>
+</section>
+<!-- SMART HOME / SMART OFFICE DUO -->
+<section class="duo-section" style="padding: 100px 0; background: var(--bg-white);">
+<div class="container">
+<div class="duo-header" style="text-align: center; margin-bottom: 50px;">
+<h2 style="font-size: 36px; color: #111;">Автоматизация вашей среды</h2>
+<p style="color: var(--text-muted); max-width: 600px; margin: 15px auto 0;">Выбирайте направление, которое вам подходит. Мы предоставляем комплексные решения как для жилых, так и для коммерческих помещений.</p>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1200px; margin: 0 auto;">
+<div style="border-radius: 24px; overflow: hidden; position: relative; height: 100%; min-height: 350px; background: url('Main/Smart Home-1.webp') center/cover no-repeat;">
+<div style="position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);"></div>
+<div style="position: absolute; bottom: 0; left: 0; padding: 40px; color: #fff; width: 100%;">
+<h3 style="font-size: 28px; margin-bottom: 15px;">Умный дом</h3>
+<p style="font-size: 14px; color: #eee; margin-bottom: 25px; line-height: 1.6; max-width: 400px;">Создайте комфортную и безопасную среду для своей семьи. Управляйте освещением, климатом и безопасностью одним касанием.</p>
+<a class="contact-btn" href="smart-home.html" style="background: #fff; color: #111;">Посмотреть решения</a>
+</div>
+</div>
+<div style="border-radius: 24px; overflow: hidden; position: relative; height: 100%; min-height: 350px; background: url('Main/Smart Office-1.webp') center/cover no-repeat;">
+<div style="position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.3) 50%, transparent 100%);"></div>
+<div style="position: absolute; bottom: 0; left: 0; padding: 40px; color: #fff; width: 100%;">
+<h3 style="font-size: 28px; margin-bottom: 15px;">Умный Офис</h3>
+<p style="font-size: 14px; color: #eee; margin-bottom: 25px; line-height: 1.6; max-width: 400px;">Обеспечьте комфорт сотрудников и повысьте эффективность с помощью интеллектуального климата, контроля доступа и современных решений.</p>
+<a class="contact-btn" href="smart-office.html" style="background: #fff; color: #111;">Посмотреть решения</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROCESS TIMELINE -->
+<section class="timeline-section" style="background: var(--bg-white);">
+<div class="container">
+<div style="text-align: center; margin-bottom: 40px;">
+<h2 style="font-size: 36px; color: #222;">Меры безопасности</h2>
+</div>
+<div class="timeline">
+<div class="timeline-step">
+<div class="step-icon">01</div>
+<h4>Дизайн территории</h4>
+<p>Мы изучаем территорию и разрабатываем решения.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">02</div>
+<h4>Подписание контракта</h4>
+<p>Уточнение бюджета и сроков, подписание договора.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">03</div>
+<h4>Составление</h4>
+<p>Инженерные работы и заказ приборов.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">04</div>
+<h4>Установка и сборка</h4>
+<p>Монтаж приборов, прокладка кабелей.</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon">05</div>
+<h4>Сдача проекта</h4>
+<p>Тестирование и ввод системы в эксплуатацию.</p>
+</div>
+</div>
+<div style="text-align: center; margin-top: 50px;">
+<p style="font-weight: 500; margin-bottom: 15px;">Заинтересованы в защите своего пространства?</p>
+<a class="contact-btn" href="#booking">Записаться на прием <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+</section>
+<!-- BOOKING CTA -->
+<section class="cta-section" id="booking" style="background: var(--bg-white); padding: 100px 0;">
+<div class="container">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; background: #fff; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); border: 1px solid var(--border-light); padding: 50px; max-width: 1000px; margin: 0 auto;">
+<div>
+<h2 style="font-size: 32px; margin-bottom: 10px;">Закажите установку безопасности сегодня!</h2>
+<p style="color: var(--text-muted); font-size: 14px; margin-bottom: 30px;">Запишитесь на консультацию по вопросам защиты и автоматизации вашего помещения.</p>
+<form action="#" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<input placeholder="*Имя:" required="" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="text"/>
+<input placeholder="Адрес электронной почты:" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="email"/>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+<input placeholder="*Номер телефона" required="" style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff;" type="tel"/>
+<select style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; background: #fff; color: #666; appearance: none; background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'); background-repeat: no-repeat; background-position: right 15px top 50%; background-size: 10px auto;">
+<option disabled="" selected="" value="">Тип района</option>
+<option value="Առանձնատուն">Частный дом</option>
+<option value="Բնակարան">Квартира:</option>
+<option value="Գրասենյակ">Офис</option>
+<option value="Կոմերցիոն Տարածք">Коммерческая площадь</option>
+<option value="Այլ">Другой:</option>
+</select>
+</div>
+<textarea placeholder="Примечание..." style="width: 100%; padding: 14px 15px; border: 1px solid #e0e0e0; border-radius: 4px; font-family: inherit; font-size: 14px; min-height: 120px; resize: vertical; background: #fff;"></textarea>
+<button class="contact-btn" style="border: none; cursor: pointer; margin-top: 10px; padding: 14px 40px;" type="submit">ОТПРАВЛЯТЬ</button>
+</form>
+</div>
+<div style="height: 100%;">
+<div style="background: url('demobox.png') center/cover no-repeat; height: 100%; min-height: 400px; border-radius: 16px; position: relative;">
+<div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); border-radius: 16px;"></div>
+<div style="position: absolute; bottom: 30px; left: 30px; right: 30px; color: #fff;">
+<h3 style="font-size: 24px; margin-bottom: 10px;">Умный дом в вашем районе</h3>
+<p style="font-size: 14px; color: #ddd; line-height: 1.5;">Наши специалисты посетят ваше помещение и продемонстрируют возможности системы на демо-боксе.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="logo" style="margin-bottom: 15px;"><a href="index.html"><img alt="Smartic Logo" src="../logo.png"/></a></div>
+<p style="font-size: 13px; color: var(--text-muted);">Официальный представитель бренда LifeSmart в Армении.</p>
+<div style="display: flex; gap: 15px; margin-top: 20px;">
+<a href="https://www.facebook.com/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#1877F2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.instagram.com/smartic_llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#E4405F'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.linkedin.com/company/smartic-llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#0A66C2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://t.me/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#229ED9'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+</div>
+</div>
+<div>
+<h4>Компания:</h4>
+<ul>
+<li></li>
+<li><a href="about.html">О нас</a></li>
+<li><a href="projects.html">Проекты:</a></li>
+<li><a href="#">Разнообразие</a>
+<a href="contact.html">Обратная связь:</a>
+<a href="blog.html">Блог:</a></li>
+</ul>
+</div>
+<div>
+<h4>Услуги:</h4>
+<ul>
+<li><a href="#">Умный дом</a></li>
+<li><a href="#">Умный офис</a></li>
+<li><a href="#">Безопасность</a></li>
+<li><a href="#">Освещение</a></li>
+</ul>
+</div>
+<div>
+<h4>Связаться с нами</h4>
+<ul>
+<li><a href="#">Рубинянц 27/3, Ереван</a></li>
+<li><a href="#">+374 55 103 090</a></li>
+<li><a href="#">info@smartic.am</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+                © 2026 Смартик. Все права защищены.
+            </div>
+</div>
+</footer>
+<!-- STICKY WHATSAPP -->
+<a class="whatsapp-float" href="https://wa.me/37455103090" target="_blank" title="Contact on WhatsApp">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+<script>
+        // Header shadow on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 10) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('mobile-menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+        const headerActions = document.getElementById('header-actions');
+        
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                headerActions.classList.toggle('active');
+                const icon = menuToggle.querySelector('i');
+                if (navLinks.classList.contains('active')) {
+                    icon.classList.replace('fa-bars', 'fa-xmark');
+                } else {
+                    icon.classList.replace('fa-xmark', 'fa-bars');
+                }
+            });
+        }
+
+        // FAQ Toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // Close all others
+                document.querySelectorAll('.faq-item').forEach(faq => {
+                    faq.classList.remove('active');
+                    const icon = faq.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-plus');
+                });
+
+                if (!isActive) {
+                    item.classList.add('active');
+                    const icon = question.querySelector('i');
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-xmark');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

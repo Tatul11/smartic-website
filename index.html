@@ -1,537 +1,516 @@
 <!DOCTYPE html>
+
 <html lang="hy">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smartic | Խելացի տուն Հայաստանում</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="global.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Smartic | Խելացի տուն Հայաստանում</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="global.css" rel="stylesheet"/>
 </head>
 <body>
-
-    <!-- Header -->
-    <header class="header" id="header">
-        <div class="header-inner">
-            <div class="logo">
-                <img src="logo.png" alt="Smartic Logo">
+<!-- Header -->
+<header class="header" id="header">
+<div class="header-inner">
+<div class="logo">
+<img alt="Smartic Logo" src="logo.png"/>
+</div>
+<div class="mobile-menu-btn" id="mobile-menu-toggle">
+<i class="fa-solid fa-bars"></i>
+</div>
+<nav class="nav-links" id="nav-links">
+<div class="dropdown">
+<a href="services.html" onclick="window.location.href='services.html'; return true;" style="display:flex; align-items:center; gap:5px; cursor:pointer; z-index:100; position:relative;">Ծառայություններ <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
+<div class="dropdown-content">
+<a href="smart-home.html">Խելացի Տուն</a>
+<a href="smart-office.html">Խելացի Գրասենյակ</a>
+</div>
+</div>
+<a href="projects.html">Նախագծեր</a>
+<a href="about.html">Մեր մասին</a>
+<a href="#">Տեսականի</a>
+<a href="contact.html">Հետադարձ Կապ</a>
+<a href="blog.html">Բլոգ</a>
+</nav>
+<div class="header-actions" id="header-actions">
+<div style="font-size: 12px; font-weight: 600; color: #888;"><span style="color: #222;">HY</span> | <a href="en/index.html">EN</a> | <a href="ru/index.html">RU</a></div>
+<a href="tel:+37455103090" style="font-size: 14px; color: #333;"><i class="fa-solid fa-phone"></i></a>
+<a class="contact-btn" href="#booking">Ամրագրել</a>
+</div>
+</div>
+</header>
+<!-- Hero -->
+<section class="hero">
+<div class="hero-bg-image"></div>
+<div class="container">
+<div class="hero-content">
+<!-- REPLACED 4.9 BADGE WITH LIFESMART PARTNER BADGE -->
+<div class="hero-lifesmart-badge">
+<div class="badge-icon"></div>
+<div style="display: flex; flex-direction: column; line-height: 1.2;">
+<span style="font-weight: 700; color: #222; font-size: 14px;">LifeSmart Partner</span>
+<span style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Պաշտոնական ներկայացուցիչ</span>
+</div>
+</div>
+<h1>Խելացի տուն,<br/>որը հոգ է տանում ձեր մասին</h1>
+<p class="hero-subtitle">Վստահեք հայաստանյան շուկայում լավագույնին: Դարձրեք Ձեր տունը ավելի անվտանգ և հարմարավետ:</p>
+<div class="hero-actions">
+<a class="contact-btn" href="#booking">Ամրագրեք անվճար հանդիպում <i class="fa-solid fa-arrow-right"></i></a>
+<a class="btn-ghost" href="projects.html">Դիտել նախագծերը</a>
+</div>
+<div class="hero-stats">
+<div class="stat-block">
+<div class="val">4.9 <i class="fa-solid fa-star"></i></div>
+<div class="lbl">150+ գնահատական</div>
+</div>
+<div class="stat-block">
+<div class="val">100+</div>
+<div class="lbl">Ավտոմատացված տուն</div>
+</div>
+<div class="stat-block">
+<div class="val">10<span style="color: var(--accent);">+</span></div>
+<div class="lbl">Տարի շուկայում</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PARTNERS SLIDER (Replaced bottom numbers strip) -->
+<div class="partners-slider-section">
+<div class="partners-track">
+<!-- First set -->
+<img alt="LifeSmart" src="Partners/lifesmart.webp"/>
+<img alt="Schneider" src="Partners/schneider.webp"/>
+<img alt="Sonos" src="Partners/sonos.webp"/>
+<img alt="Ubiquity" src="Partners/ubiquity.webp"/>
+<img alt="Dahua" src="Partners/dahua.webp"/>
+<img alt="Hikvision" src="Partners/hikvision.webp"/>
+<img alt="Legrand" src="Partners/legrand.webp"/>
+<!-- Duplicate set for infinite scroll -->
+<img alt="LifeSmart" src="Partners/lifesmart.webp"/>
+<img alt="Schneider" src="Partners/schneider.webp"/>
+<img alt="Sonos" src="Partners/sonos.webp"/>
+<img alt="Ubiquity" src="Partners/ubiquity.webp"/>
+<img alt="Dahua" src="Partners/dahua.webp"/>
+<img alt="Hikvision" src="Partners/hikvision.webp"/>
+<img alt="Legrand" src="Partners/legrand.webp"/>
+</div>
+</div>
+<!-- Duo Section -->
+<section class="duo-section">
+<div class="container">
+<div class="duo-header">
+<span class="section-kicker">— Ի՞ՆՉ ԵՆՔ ԱՌԱՋԱՐԿՈՒՄ</span>
+<h2>Ավտոմատացում ցանկացած տարածքի համար</h2>
+<p>Մենք չենք վաճառում առանձին սարքեր — մենք նախագծում ենք ամբողջական ավտոմատացման համակարգեր ձեր կենսակերպին համապատասխան:</p>
+</div>
+<div class="duo-grid">
+<!-- Smart Home Card -->
+<div class="duo-card-img" style="background-image: url('Main/Smart Home-1.webp');">
+<div class="duo-card-content">
+<h3>Խելացի տուն</h3>
+<p>Կենտրոնացված համակարգ, որը հարմարվում է մարդու կենսակերպին՝ ապահովելով կոմֆորտ, անվտանգություն և էներգախնայողություն:</p>
+<a class="duo-link" href="smart-home.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+<!-- Smart Office Card -->
+<div class="duo-card-img" style="background-image: url('Main/Smart Office-1.webp');">
+<div class="duo-card-content">
+<h3>Խելացի գրասենյակ</h3>
+<p>Կառավարեք լույսերը, ջեռուցումը, օդորակումն ու անվտանգությունը՝ բարձրացնելով տարածքի օգտագործման արդյունավետությունը:</p>
+<a class="duo-link" href="smart-office.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Systems -->
+<section class="systems-section">
+<div class="container">
+<div class="systems-header">
+<span class="section-kicker">— ՀԻՄՆԱԿԱՆ ՀԱՄԱԿԱՐԳԵՐ</span>
+<h2>Ինչ ենք մենք առաջարկում</h2>
+<img alt="Modern Interior Hallway" class="systems-hero-img" src="2.webp"/>
+</div>
+<div class="systems-grid">
+<div class="system-item">
+<div class="system-icon"><img alt="Security" src="Smartic-Icons 2/Security.svg"/></div>
+<h4>Խելացի անվտանգություն</h4>
+<p>Տեսահսկում, շարժման սենսորներ, ջրի արտահոսքի տվիչներ: Դուք կստանաք ծանուցում ցանկացած արտակարգ իրավիճակի դեպքում։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="system-item">
+<div class="system-icon"><img alt="Lights" src="Smartic-Icons 2/Lights.svg"/></div>
+<h4>Խելացի լուսավորություն</h4>
+<p>Լույսերի ավտոմատ միացում/անջատում, պայծառության փոփոխություն: Ստեղծեք սցենարներ տարբեր իրավիճակների համար։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="system-item">
+<div class="system-icon"><img alt="Curtains" src="Smartic-Icons 2/Curtains.svg"/></div>
+<h4>Խելացի վարագույրներ</h4>
+<p>Վարագույրների և շերտավարագույրների ավտոմատ կառավարում: Դա ապահովում է հարմարավետություն և խնայում է էներգիան։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="system-item">
+<div class="system-icon"><img alt="Doors" src="Smartic-Icons 2/Doors.svg"/></div>
+<h4>Խելացի մուտք</h4>
+<p>Բացեք դուռը մատնահետքով, գաղտնաբառով կամ հեռախոսով: Ստեղծեք ժամանակավոր կոդեր հյուրերի համար։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="system-item">
+<div class="system-icon"><img alt="Climate" src="Smartic-Icons 2/ClimateControl.svg"/></div>
+<h4>Կլիմայի կառավարում</h4>
+<p>Ջեռուցման և հովացման ավտոմատացում՝ էներգիայի խնայողությամբ: Պահպանեք իդեալական ջերմաստիճան տանը։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+<div class="system-item">
+<div class="system-icon"><img alt="App" src="Smartic-Icons 2/Application.svg"/></div>
+<h4>Աուդիո-վիդեո ժամանց</h4>
+<p>Multi-room աուդիո համակարգեր և տնային կինոթատրոնների սցենարներ, որոնք ստեղծում են իդեալական մթնոլորտ։</p>
+<a class="system-link" href="services.html">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Products Showcase -->
+<section class="products-section">
+<div class="container">
+<div class="products-header">
+<div>
+<span class="section-kicker">— ԱՄԵՆԱՊԱՀԱՆՋՎԱԾ ՍԱՐՔԵՐԸ</span>
+<h2>Ինչ սարքավորումներ ենք օգտագործում</h2>
+</div>
+<a class="contact-btn" href="#">Դիտել բոլորը</a>
+</div>
+<div class="products-notice">
+<i class="fa-solid fa-circle-info"></i> Սարքերը ներկայացված են ցուցադրական նպատակով — մենք առաջարկում ենք ամբողջական ավտոմատացման ծառայություն:
             </div>
-            <div class="mobile-menu-btn" id="mobile-menu-toggle">
-                <i class="fa-solid fa-bars"></i>
+<div class="products-grid">
+<div class="product-card">
+<div class="product-img"><img alt="Station" src="Product Images/Product featuredv Images /产品图-6_1724810750_E6C63E.webp"/></div>
+<h4>Խելացի Կայան</h4>
+<p>Համակարգի ուղեղը</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Switch" src="Product Images/Product featuredv Images /Nature-Switch.png"/></div>
+<h4>Խելացի վահանակ</h4>
+<p>Nature Series</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Camera" src="Product Images/Product featuredv Images /camera.webp"/></div>
+<h4>Խելացի տեսախցիկ</h4>
+<p>360° անկյունով</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Mini Pro" src="Product Images/Product featuredv Images /Nature Mini PRO .png"/></div>
+<h4>Nature Mini PRO</h4>
+<p>Սենսորային էկրան</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Motion Sensor" src="Product Images/Product featuredv Images /产品图-2_1724810742_340B88.webp"/></div>
+<h4>Շարժման սենսոր</h4>
+<p>Անվտանգություն</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Lock" src="Product Images/Product featuredv Images /产品图-4_1724810746_6FE391.webp"/></div>
+<h4>Խելացի փական</h4>
+<p>6-ը 1-ում համակարգ</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Climate Sensor" src="Product Images/Product featuredv Images /Smart Hvac System.webp"/></div>
+<h4>Շրջակա միջավայրի սենսոր</h4>
+<p>Ջերմաստիճան և խոնավություն</p>
+</div>
+<div class="product-card">
+<div class="product-img"><img alt="Nature 7 Pro" src="Product Images/Product featuredv Images /Nature-7-Pro-2.jpg"/></div>
+<h4>Nature 7 PRO</h4>
+<p>Գլխավոր վահանակ</p>
+</div>
+</div>
+</div>
+</section>
+<!-- PROCESS TIMELINE -->
+<section class="timeline-section">
+<div class="container">
+<div style="text-align: center; margin-bottom: 40px;">
+<span class="section-kicker">— ԻՆՉՊԵՍ ԵՆՔ ԱՇԽԱՏՈՒՄ</span>
+<h2 style="font-size: 32px; color: #222;">Մեր աշխատանքի փուլերը</h2>
+</div>
+<div class="timeline">
+<div class="timeline-step">
+<div class="step-icon"><img alt="Calc" src="Smartic-Icons 2/Calculation.svg"/></div>
+<h4>Տարածքի հաշվարկ</h4>
+<p>Անվճար խորհրդատվություն և կարիքների վերլուծություն:</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon"><img alt="Contract" src="Smartic-Icons 2/Contract.svg"/></div>
+<h4>Պայմանագիր</h4>
+<p>Բյուջեի հաստատում և իրավական երաշխիքներ:</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon"><img alt="Drafting" src="Smartic-Icons 2/Drafting.svg"/></div>
+<h4>Նախագծում</h4>
+<p>Ինժեներական գծագրեր և սցենարների մշակում:</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon"><img alt="Install" src="Smartic-Icons 2/Installation.svg"/></div>
+<h4>Տեղադրում</h4>
+<p>Պրոֆեսիոնալ մոնտաժ և կարգաբերում:</p>
+</div>
+<div class="timeline-step">
+<div class="step-icon"><img alt="Finish" src="Smartic-Icons 2/Finish.svg"/></div>
+<h4>Հանձնում</h4>
+<p>Փորձարկում և համակարգի օգտագործման ուսուցում:</p>
+</div>
+</div>
+</div>
+</section>
+<!-- PROJECTS GALLERY -->
+<section class="projects-section">
+<div class="container">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;">
+<div>
+<span class="section-kicker">— ՎԵՐՋԻՆ ՆԱԽԱԳԾԵՐԸ</span>
+<h2 style="font-size: 32px; color: #222;">Մեր աշխատանքները</h2>
+</div>
+<a class="btn-ghost" href="projects.html">Դիտել նախագծերը</a>
+</div>
+<div class="projects-grid">
+<div class="project-item item-1">
+<img alt="Բագրևանդ" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">170քմ առանձնատուն</span>
+<h3>Բագրևանդ</h3>
+</div>
+</div>
+<div class="project-item item-2">
+<img alt="Գյումրի" src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">120քմ բնակարան</span>
+<h3>Գյումրի</h3>
+</div>
+</div>
+<div class="project-item item-3">
+<img alt="Level 16" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">Պրեմիում բնակարան</span>
+<h3>Level 16</h3>
+</div>
+</div>
+<div class="project-item item-4">
+<img alt="Թբիլիսի հյուրանոց" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">Հյուրանոց</span>
+<h3>Թբիլիսի</h3>
+</div>
+</div>
+<div class="project-item item-5">
+<img alt="Մոսկվա" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">Գրասենյակ</span>
+<h3>Մոսկվա</h3>
+</div>
+</div>
+<div class="project-item item-6">
+<img alt="Ծաղկաձոր" src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"/>
+<div class="project-info">
+<span class="project-tag">Քոթեջ</span>
+<h3>Ծաղկաձոր</h3>
+</div>
+</div>
+</div>
+</div></section>
+<!-- REVIEWS SECTION -->
+<section class="reviews-section">
+<div class="container">
+<div style="text-align: center; margin-bottom: 50px;">
+<span class="section-kicker">— ՀԱՃԱԽՈՐԴՆԵՐԻ ԳՆԱՀԱՏԱԿԱՆՆԵՐ</span>
+<h2 style="font-size: 32px; color: #222;">Մեր հաճախորդները՝ մեր մասին</h2>
+<div style="display: flex; flex-direction: column; align-items: center; margin-top: 15px;">
+<div style="font-size: 42px; font-weight: 700; color: #111; line-height: 1;">4.9</div>
+<div style="color: #fbc02d; font-size: 16px; margin: 8px 0;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+<div style="font-size: 12px; color: var(--text-muted);">150+ գնահատական</div>
+</div>
+</div>
+<div class="reviews-grid">
+<div class="review-card">
+<i class="fa-solid fa-quote-left quote-icon"></i>
+<div class="review-text">Smartic-ի թիմը ամբողջությամբ ավտոմատացրել է մեր երկհարկանի առանձնատունը՝ լուսավորությունը, ջեռուցումը, այգու ոռոգումը և անվտանգության համակարգերը՝ ստեղծելով անհատական սցենարներ:</div>
+<div class="reviewer">
+<div class="reviewer-avatar" style="background: #2dd4bf;">ԱՀ</div>
+<div>
+<h5>Աննա Հ.</h5>
+<span>Առանձնատուն, Բագրևանդ</span>
+</div>
+</div>
+</div>
+<div class="review-card">
+<i class="fa-solid fa-quote-left quote-icon"></i>
+<div class="review-text">Շնորհիվ Smartic-ի, մեր տունն այժմ ավելի անվտանգ և հեշտ կառավարելի է, ինչը հատկապես կարևոր է երբ տանը կան երեխաներ: Ձայնային հրամաններով կառավարում ենք լուսավորությունը:</div>
+<div class="reviewer">
+<div class="reviewer-avatar" style="background: #38bdf8;">ԿԱ</div>
+<div>
+<h5>Կարեն Ա.</h5>
+<span>Բնակարան, Գյումրի</span>
+</div>
+</div>
+</div>
+<div class="review-card">
+<i class="fa-solid fa-quote-left quote-icon"></i>
+<div class="review-text">Smartic-ը ամբողջությամբ ավտոմատացրեց մեր 85քմ բնակարանը: Կարճ ժամանակում սարքերը արդեն տվեցին իրենց արդյունքը՝ կանխելով ջրի արտահոսքը, երբ տանը չէինք:</div>
+<div class="reviewer">
+<div class="reviewer-avatar" style="background: #fbbf24;">ՌՄ</div>
+<div>
+<h5>Ռուբեն Մ.</h5>
+<span>Level 16 բնակելի համալիր</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ SECTION -->
+<section class="faq-section">
+<div class="container faq-grid">
+<div class="faq-left">
+<span class="section-kicker">— ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ</span>
+<h2 style="font-size: 36px; line-height: 1.2; margin-bottom: 20px; color: #111;">Ամեն ինչ, ինչ ուզում էիք իմանալ խելացի տան մասին</h2>
+<p style="font-size: 14px; color: var(--text-muted); margin-bottom: 30px;">Չգտա՞ք պատասխանը: Զանգահարեք մեզ՝ խորհրդատվությունն անվճար է:</p>
+<a class="contact-btn" href="tel:+37455103090">Կապ մեզ հետ <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
+</div>
+<div class="faq-right">
+<div class="faq-item">
+<div class="faq-question">Որքա՞ն է արժե խելացի տան համակարգը: <i class="fa-solid fa-plus"></i></div>
+<div class="faq-answer"><p>Արժեքը կախված է Ձեր բնակարանի մակերեսից և ընտրված ֆունկցիաներից: Ունենք մեկնարկային փաթեթներ՝ սկսած պարզ լուսավորության և անվտանգության ապահովումից, մինչև պրեմիում լուծումներ:</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-question">Որքա՞ն ժամանակ է տևում տեղադրումը: <i class="fa-solid fa-plus"></i></div>
+<div class="faq-answer"><p>Տեղադրումը սովորաբար տևում է 1-ից 3 օր՝ կախված նախագծի բարդությունից: Անլար համակարգերի դեպքում աշխատանքը կատարվում է առանց վերանորոգումը վնասելու:</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-question">Կարո՞ղ եմ ընդլայնել համակարգը հետագայում: <i class="fa-solid fa-plus"></i></div>
+<div class="faq-answer"><p>Այո, LifeSmart էկոհամակարգը չափազանց ճկուն է: Դուք կարող եք սկսել միայն անվտանգության սենսորներից և հետագայում ավելացնել լուսավորության կամ կլիմայի կառավարում:</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-question">Աշխատու՞մ է ինտերնետի անջատման դեպքում: <i class="fa-solid fa-plus"></i></div>
+<div class="faq-answer"><p>Այո, հիմնական գործառույթները և սցենարները պահպանվում են Խելացի Կայանի (Hub) մեջ և աշխատում են նույնիսկ առանց ինտերնետ կապի:</p></div>
+</div>
+<div class="faq-item">
+<div class="faq-question">Ի՞նչ երաշխիք եք տալիս: <i class="fa-solid fa-plus"></i></div>
+<div class="faq-answer"><p>Մենք տրամադրում ենք մինչև 2 տարի պաշտոնական երաշխիք սարքավորումների համար և անվճար տեխնիկական սպասարկում առաջին տարվա ընթացքում:</p></div>
+</div>
+</div>
+</div>
+</section>
+<!-- BLOG SECTION -->
+<section class="blog-section">
+<div class="container">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;">
+<div>
+<span class="section-kicker">— ԲԼՈԳ ԵՎ ՆՈՐՈՒԹՅՈՒՆՆԵՐ</span>
+<h2 style="font-size: 32px; color: #222;">Օգտակար նյութեր</h2>
+</div>
+<a class="btn-ghost" href="#">Դիտել բոլորը</a>
+</div>
+<div class="blog-grid">
+<a class="blog-card" href="#">
+<div class="blog-img-wrapper"><img alt="Blog 1" class="blog-img" src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80"/></div>
+<div class="blog-content">
+<span class="blog-date">Մայիս 10, 2026</span>
+<div class="blog-title">5 պատճառ ներդրում կատարել խելացի տուն համակարգում</div>
+</div>
+</a>
+<a class="blog-card" href="#">
+<div class="blog-img-wrapper"><img alt="Blog 2" class="blog-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80"/></div>
+<div class="blog-content">
+<span class="blog-date">Ապրիլ 22, 2026</span>
+<div class="blog-title">Խելացի տունը 2025-ին՝ Նորարարություններ և Տենդենցներ</div>
+</div>
+</a>
+<a class="blog-card" href="#">
+<div class="blog-img-wrapper"><img alt="Blog 3" class="blog-img" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80"/></div>
+<div class="blog-content">
+<span class="blog-date">Մարտ 05, 2026</span>
+<div class="blog-title">Ի՞նչ է խելացի տունը և ինչպե՞ս այն կփոխի Ձեր կյանքը</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- SMALLER PARALLAX CTA -->
+<section class="cta-section">
+<div class="container">
+<div class="cta-banner">
+<div class="cta-banner-bg"></div>
+<div class="cta-overlay">
+<div class="cta-text">
+<h2>Փորձեք պատկերացնել, թե ինչ է խելացի տունը</h2>
+<p>Մեր շարժական դեմո բոքսը կգա հենց Ձեր տուն: Դուք կտեսնեք, թե ինչպես է այն աշխատում իրականում նախքան որոշում կայացնելը:</p>
+</div>
+<div class="cta-buttons">
+<a class="contact-btn" href="#" style="background: #fff; color: #111;">Ամրագրել հանդիպում</a>
+<a class="btn-ghost" href="tel:+37455103090" style="background: rgba(255,255,255,0.15); color: #fff; border: none; backdrop-filter: blur(5px);"><i class="fa-solid fa-phone"></i> Զանգահարել</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="logo" style="margin-bottom: 15px;"><img alt="Smartic Logo" src="logo.png"/></div>
+<p style="font-size: 13px; color: var(--text-muted);">LifeSmart բրենդի պաշտոնական ներկայացուցիչը Հայաստանում:</p>
+<div style="display: flex; gap: 15px; margin-top: 20px;">
+<a href="https://www.facebook.com/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#1877F2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.instagram.com/smartic_llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#E4405F'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.linkedin.com/company/smartic-llc/" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#0A66C2'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://t.me/smarticllc" onmouseout="this.style.color='var(--text-muted)'" onmouseover="this.style.color='#229ED9'" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+</div>
+</div>
+<div>
+<h4>Ընկերություն</h4>
+<ul>
+<li><a href="#">Գլխավոր</a></li>
+<li><a href="about.html">Մեր մասին</a></li>
+<li><a href="projects.html">Նախագծեր</a></li>
+<li><a href="#">Տեսականի</a>
+<a href="contact.html">Հետադարձ Կապ</a>
+<a href="blog.html">Բլոգ</a></li>
+</ul>
+</div>
+<div>
+<h4>Ծառայություններ</h4>
+<ul>
+<li><a href="smart-home.html">Խելացի տուն</a></li>
+<li><a href="smart-office.html">Խելացի գրասենյակ</a></li>
+<li><a href="#">Անվտանգություն</a></li>
+<li><a href="#">Լուսավորություն</a></li>
+</ul>
+</div>
+<div>
+<h4>Կապ մեզ հետ</h4>
+<ul>
+<li><a href="#">Ռուբինյանց 27/3, Երևան</a></li>
+<li><a href="#">+374 55 103 090</a></li>
+<li><a href="#">info@smartic.am</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+                © 2026 Smartic. Բոլոր իրավունքները պաշտպանված են:
             </div>
-            <nav class="nav-links" id="nav-links">
-                
-                <div class="dropdown">
-                    <a href="services.html" onclick="window.location.href='services.html'; return true;" style="display:flex; align-items:center; gap:5px; cursor:pointer; z-index:100; position:relative;">Ծառայություններ <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i></a>
-                    <div class="dropdown-content">
-                        <a href="smart-home.html">Խելացի Տուն</a>
-                        <a href="smart-office.html">Խելացի Գրասենյակ</a>
-                    </div>
-                </div>
-                <a href="projects.html">Նախագծեր</a>
-                <a href="about.html">Մեր մասին</a>
-                <a href="#">Տեսականի</a>
-                <a href="contact.html">Հետադարձ Կապ</a>
-                <a href="blog.html">Բլոգ</a>
-            </nav>
-            <div class="header-actions" id="header-actions">
-                <div style="font-size: 12px; font-weight: 600; color: #888;">
-                    <span style="color: #222;">HY</span> | <a href="#">EN</a> | <a href="#">RU</a>
-                </div>
-                <a href="tel:+37455103090" style="font-size: 14px; color: #333;"><i class="fa-solid fa-phone"></i></a>
-                <a href="#booking" class="contact-btn">Ամրագրել</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero -->
-    <section class="hero">
-        <div class="hero-bg-image"></div>
-        <div class="container">
-            <div class="hero-content">
-                <!-- REPLACED 4.9 BADGE WITH LIFESMART PARTNER BADGE -->
-                <div class="hero-lifesmart-badge">
-                    <div class="badge-icon"></div>
-                    <div style="display: flex; flex-direction: column; line-height: 1.2;">
-                        <span style="font-weight: 700; color: #222; font-size: 14px;">LifeSmart Partner</span>
-                        <span style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;">Պաշտոնական ներկայացուցիչ</span>
-                    </div>
-                </div>
-                
-                <h1>Խելացի տուն,<br>որը հոգ է տանում ձեր մասին</h1>
-                <p class="hero-subtitle">Վստահեք հայաստանյան շուկայում լավագույնին: Դարձրեք Ձեր տունը ավելի անվտանգ և հարմարավետ:</p>
-                <div class="hero-actions">
-                    <a href="#booking" class="contact-btn">Ամրագրեք անվճար հանդիպում <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="projects.html" class="btn-ghost">Դիտել նախագծերը</a>
-                </div>
-                
-                <div class="hero-stats">
-                    <div class="stat-block">
-                        <div class="val">4.9 <i class="fa-solid fa-star"></i></div>
-                        <div class="lbl">150+ գնահատական</div>
-                    </div>
-                    <div class="stat-block">
-                        <div class="val">100+</div>
-                        <div class="lbl">Ավտոմատացված տուն</div>
-                    </div>
-                    <div class="stat-block">
-                        <div class="val">10<span style="color: var(--accent);">+</span></div>
-                        <div class="lbl">Տարի շուկայում</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PARTNERS SLIDER (Replaced bottom numbers strip) -->
-    <div class="partners-slider-section">
-        <div class="partners-track">
-            <!-- First set -->
-            <img src="Partners/lifesmart.webp" alt="LifeSmart">
-            <img src="Partners/schneider.webp" alt="Schneider">
-            <img src="Partners/sonos.webp" alt="Sonos">
-            <img src="Partners/ubiquity.webp" alt="Ubiquity">
-            <img src="Partners/dahua.webp" alt="Dahua">
-            <img src="Partners/hikvision.webp" alt="Hikvision">
-            <img src="Partners/legrand.webp" alt="Legrand">
-            <!-- Duplicate set for infinite scroll -->
-            <img src="Partners/lifesmart.webp" alt="LifeSmart">
-            <img src="Partners/schneider.webp" alt="Schneider">
-            <img src="Partners/sonos.webp" alt="Sonos">
-            <img src="Partners/ubiquity.webp" alt="Ubiquity">
-            <img src="Partners/dahua.webp" alt="Dahua">
-            <img src="Partners/hikvision.webp" alt="Hikvision">
-            <img src="Partners/legrand.webp" alt="Legrand">
-        </div>
-    </div>
-
-    <!-- Duo Section -->
-    <section class="duo-section">
-        <div class="container">
-            <div class="duo-header">
-                <span class="section-kicker">— Ի՞ՆՉ ԵՆՔ ԱՌԱՋԱՐԿՈՒՄ</span>
-                <h2>Ավտոմատացում ցանկացած տարածքի համար</h2>
-                <p>Մենք չենք վաճառում առանձին սարքեր — մենք նախագծում ենք ամբողջական ավտոմատացման համակարգեր ձեր կենսակերպին համապատասխան:</p>
-            </div>
-            <div class="duo-grid">
-                <!-- Smart Home Card -->
-                <div class="duo-card-img" style="background-image: url('Main/Smart Home-1.webp');">
-                    <div class="duo-card-content">
-                        <h3>Խելացի տուն</h3>
-                        <p>Կենտրոնացված համակարգ, որը հարմարվում է մարդու կենսակերպին՝ ապահովելով կոմֆորտ, անվտանգություն և էներգախնայողություն:</p>
-                        <a href="smart-home.html" class="duo-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <!-- Smart Office Card -->
-                <div class="duo-card-img" style="background-image: url('Main/Smart Office-1.webp');">
-                    <div class="duo-card-content">
-                        <h3>Խելացի գրասենյակ</h3>
-                        <p>Կառավարեք լույսերը, ջեռուցումը, օդորակումն ու անվտանգությունը՝ բարձրացնելով տարածքի օգտագործման արդյունավետությունը:</p>
-                        <a href="smart-office.html" class="duo-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Systems -->
-    <section class="systems-section">
-        <div class="container">
-            <div class="systems-header">
-                <span class="section-kicker">— ՀԻՄՆԱԿԱՆ ՀԱՄԱԿԱՐԳԵՐ</span>
-                <h2>Ինչ ենք մենք առաջարկում</h2>
-                <img src="2.webp" alt="Modern Interior Hallway" class="systems-hero-img">
-            </div>
-            
-            <div class="systems-grid">
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Security.svg" alt="Security"></div>
-                    <h4>Խելացի անվտանգություն</h4>
-                    <p>Տեսահսկում, շարժման սենսորներ, ջրի արտահոսքի տվիչներ: Դուք կստանաք ծանուցում ցանկացած արտակարգ իրավիճակի դեպքում։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Lights.svg" alt="Lights"></div>
-                    <h4>Խելացի լուսավորություն</h4>
-                    <p>Լույսերի ավտոմատ միացում/անջատում, պայծառության փոփոխություն: Ստեղծեք սցենարներ տարբեր իրավիճակների համար։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Curtains.svg" alt="Curtains"></div>
-                    <h4>Խելացի վարագույրներ</h4>
-                    <p>Վարագույրների և շերտավարագույրների ավտոմատ կառավարում: Դա ապահովում է հարմարավետություն և խնայում է էներգիան։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Doors.svg" alt="Doors"></div>
-                    <h4>Խելացի մուտք</h4>
-                    <p>Բացեք դուռը մատնահետքով, գաղտնաբառով կամ հեռախոսով: Ստեղծեք ժամանակավոր կոդեր հյուրերի համար։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/ClimateControl.svg" alt="Climate"></div>
-                    <h4>Կլիմայի կառավարում</h4>
-                    <p>Ջեռուցման և հովացման ավտոմատացում՝ էներգիայի խնայողությամբ: Պահպանեք իդեալական ջերմաստիճան տանը։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                <div class="system-item">
-                    <div class="system-icon"><img src="Smartic-Icons 2/Application.svg" alt="App"></div>
-                    <h4>Աուդիո-վիդեո ժամանց</h4>
-                    <p>Multi-room աուդիո համակարգեր և տնային կինոթատրոնների սցենարներ, որոնք ստեղծում են իդեալական մթնոլորտ։</p>
-                    <a href="services.html" class="system-link">Իմանալ ավելին <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Products Showcase -->
-    <section class="products-section">
-        <div class="container">
-            <div class="products-header">
-                <div>
-                    <span class="section-kicker">— ԱՄԵՆԱՊԱՀԱՆՋՎԱԾ ՍԱՐՔԵՐԸ</span>
-                    <h2>Ինչ սարքավորումներ ենք օգտագործում</h2>
-                </div>
-                <a href="#" class="contact-btn">Դիտել բոլորը</a>
-            </div>
-            <div class="products-notice">
-                <i class="fa-solid fa-circle-info"></i> Սարքերը ներկայացված են ցուցադրական նպատակով — մենք առաջարկում ենք ամբողջական ավտոմատացման ծառայություն:
-            </div>
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /产品图-6_1724810750_E6C63E.webp" alt="Station"></div>
-                    <h4>Խելացի Կայան</h4>
-                    <p>Համակարգի ուղեղը</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /Nature-Switch.png" alt="Switch"></div>
-                    <h4>Խելացի վահանակ</h4>
-                    <p>Nature Series</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /camera.webp" alt="Camera"></div>
-                    <h4>Խելացի տեսախցիկ</h4>
-                    <p>360° անկյունով</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /Nature Mini PRO .png" alt="Mini Pro"></div>
-                    <h4>Nature Mini PRO</h4>
-                    <p>Սենսորային էկրան</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /产品图-2_1724810742_340B88.webp" alt="Motion Sensor"></div>
-                    <h4>Շարժման սենսոր</h4>
-                    <p>Անվտանգություն</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /产品图-4_1724810746_6FE391.webp" alt="Lock"></div>
-                    <h4>Խելացի փական</h4>
-                    <p>6-ը 1-ում համակարգ</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /Smart Hvac System.webp" alt="Climate Sensor"></div>
-                    <h4>Շրջակա միջավայրի սենսոր</h4>
-                    <p>Ջերմաստիճան և խոնավություն</p>
-                </div>
-                <div class="product-card">
-                    <div class="product-img"><img src="Product Images/Product featuredv Images /Nature-7-Pro-2.jpg" alt="Nature 7 Pro"></div>
-                    <h4>Nature 7 PRO</h4>
-                    <p>Գլխավոր վահանակ</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PROCESS TIMELINE -->
-    <section class="timeline-section">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 40px;">
-                <span class="section-kicker">— ԻՆՉՊԵՍ ԵՆՔ ԱՇԽԱՏՈՒՄ</span>
-                <h2 style="font-size: 32px; color: #222;">Մեր աշխատանքի փուլերը</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-step">
-                    <div class="step-icon"><img src="Smartic-Icons 2/Calculation.svg" alt="Calc"></div>
-                    <h4>Տարածքի հաշվարկ</h4>
-                    <p>Անվճար խորհրդատվություն և կարիքների վերլուծություն:</p>
-                </div>
-                <div class="timeline-step">
-                    <div class="step-icon"><img src="Smartic-Icons 2/Contract.svg" alt="Contract"></div>
-                    <h4>Պայմանագիր</h4>
-                    <p>Բյուջեի հաստատում և իրավական երաշխիքներ:</p>
-                </div>
-                <div class="timeline-step">
-                    <div class="step-icon"><img src="Smartic-Icons 2/Drafting.svg" alt="Drafting"></div>
-                    <h4>Նախագծում</h4>
-                    <p>Ինժեներական գծագրեր և սցենարների մշակում:</p>
-                </div>
-                <div class="timeline-step">
-                    <div class="step-icon"><img src="Smartic-Icons 2/Installation.svg" alt="Install"></div>
-                    <h4>Տեղադրում</h4>
-                    <p>Պրոֆեսիոնալ մոնտաժ և կարգաբերում:</p>
-                </div>
-                <div class="timeline-step">
-                    <div class="step-icon"><img src="Smartic-Icons 2/Finish.svg" alt="Finish"></div>
-                    <h4>Հանձնում</h4>
-                    <p>Փորձարկում և համակարգի օգտագործման ուսուցում:</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS GALLERY -->
-    <section class="projects-section">
-        <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;">
-                <div>
-                    <span class="section-kicker">— ՎԵՐՋԻՆ ՆԱԽԱԳԾԵՐԸ</span>
-                    <h2 style="font-size: 32px; color: #222;">Մեր աշխատանքները</h2>
-                </div>
-                <a href="projects.html" class="btn-ghost">Դիտել նախագծերը</a>
-            </div>
-            <div class="projects-grid">
-                <div class="project-item item-1">
-                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Բագրևանդ">
-                <div class="project-info">
-                    <span class="project-tag">170քմ առանձնատուն</span>
-                    <h3>Բագրևանդ</h3>
-                </div>
-            </div>
-            <div class="project-item item-2">
-                <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Գյումրի">
-                <div class="project-info">
-                    <span class="project-tag">120քմ բնակարան</span>
-                    <h3>Գյումրի</h3>
-                </div>
-            </div>
-            <div class="project-item item-3">
-                <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Level 16">
-                <div class="project-info">
-                    <span class="project-tag">Պրեմիում բնակարան</span>
-                    <h3>Level 16</h3>
-                </div>
-            </div>
-            <div class="project-item item-4">
-                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Թբիլիսի հյուրանոց">
-                <div class="project-info">
-                    <span class="project-tag">Հյուրանոց</span>
-                    <h3>Թբիլիսի</h3>
-                </div>
-            </div>
-            <div class="project-item item-5">
-                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Մոսկվա">
-                <div class="project-info">
-                    <span class="project-tag">Գրասենյակ</span>
-                    <h3>Մոսկվա</h3>
-                </div>
-            </div>
-            <div class="project-item item-6">
-                <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ծաղկաձոր">
-                <div class="project-info">
-                    <span class="project-tag">Քոթեջ</span>
-                    <h3>Ծաղկաձոր</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- REVIEWS SECTION -->
-    <section class="reviews-section">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 50px;">
-                <span class="section-kicker">— ՀԱՃԱԽՈՐԴՆԵՐԻ ԳՆԱՀԱՏԱԿԱՆՆԵՐ</span>
-                <h2 style="font-size: 32px; color: #222;">Մեր հաճախորդները՝ մեր մասին</h2>
-                <div style="display: flex; flex-direction: column; align-items: center; margin-top: 15px;">
-                    <div style="font-size: 42px; font-weight: 700; color: #111; line-height: 1;">4.9</div>
-                    <div style="color: #fbc02d; font-size: 16px; margin: 8px 0;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                    <div style="font-size: 12px; color: var(--text-muted);">150+ գնահատական</div>
-                </div>
-            </div>
-            <div class="reviews-grid">
-                <div class="review-card">
-                    <i class="fa-solid fa-quote-left quote-icon"></i>
-                    <div class="review-text">Smartic-ի թիմը ամբողջությամբ ավտոմատացրել է մեր երկհարկանի առանձնատունը՝ լուսավորությունը, ջեռուցումը, այգու ոռոգումը և անվտանգության համակարգերը՝ ստեղծելով անհատական սցենարներ:</div>
-                    <div class="reviewer">
-                        <div class="reviewer-avatar" style="background: #2dd4bf;">ԱՀ</div>
-                        <div>
-                            <h5>Աննա Հ.</h5>
-                            <span>Առանձնատուն, Բագրևանդ</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <i class="fa-solid fa-quote-left quote-icon"></i>
-                    <div class="review-text">Շնորհիվ Smartic-ի, մեր տունն այժմ ավելի անվտանգ և հեշտ կառավարելի է, ինչը հատկապես կարևոր է երբ տանը կան երեխաներ: Ձայնային հրամաններով կառավարում ենք լուսավորությունը:</div>
-                    <div class="reviewer">
-                        <div class="reviewer-avatar" style="background: #38bdf8;">ԿԱ</div>
-                        <div>
-                            <h5>Կարեն Ա.</h5>
-                            <span>Բնակարան, Գյումրի</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <i class="fa-solid fa-quote-left quote-icon"></i>
-                    <div class="review-text">Smartic-ը ամբողջությամբ ավտոմատացրեց մեր 85քմ բնակարանը: Կարճ ժամանակում սարքերը արդեն տվեցին իրենց արդյունքը՝ կանխելով ջրի արտահոսքը, երբ տանը չէինք:</div>
-                    <div class="reviewer">
-                        <div class="reviewer-avatar" style="background: #fbbf24;">ՌՄ</div>
-                        <div>
-                            <h5>Ռուբեն Մ.</h5>
-                            <span>Level 16 բնակելի համալիր</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ SECTION -->
-    <section class="faq-section">
-        <div class="container faq-grid">
-            <div class="faq-left">
-                <span class="section-kicker">— ՀԱՃԱԽ ՏՐՎՈՂ ՀԱՐՑԵՐ</span>
-                <h2 style="font-size: 36px; line-height: 1.2; margin-bottom: 20px; color: #111;">Ամեն ինչ, ինչ ուզում էիք իմանալ խելացի տան մասին</h2>
-                <p style="font-size: 14px; color: var(--text-muted); margin-bottom: 30px;">Չգտա՞ք պատասխանը: Զանգահարեք մեզ՝ խորհրդատվությունն անվճար է:</p>
-                <a href="tel:+37455103090" class="contact-btn">Կապ մեզ հետ <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i></a>
-            </div>
-            <div class="faq-right">
-                <div class="faq-item">
-                    <div class="faq-question">Որքա՞ն է արժե խելացի տան համակարգը: <i class="fa-solid fa-plus"></i></div>
-                    <div class="faq-answer"><p>Արժեքը կախված է Ձեր բնակարանի մակերեսից և ընտրված ֆունկցիաներից: Ունենք մեկնարկային փաթեթներ՝ սկսած պարզ լուսավորության և անվտանգության ապահովումից, մինչև պրեմիում լուծումներ:</p></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Որքա՞ն ժամանակ է տևում տեղադրումը: <i class="fa-solid fa-plus"></i></div>
-                    <div class="faq-answer"><p>Տեղադրումը սովորաբար տևում է 1-ից 3 օր՝ կախված նախագծի բարդությունից: Անլար համակարգերի դեպքում աշխատանքը կատարվում է առանց վերանորոգումը վնասելու:</p></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Կարո՞ղ եմ ընդլայնել համակարգը հետագայում: <i class="fa-solid fa-plus"></i></div>
-                    <div class="faq-answer"><p>Այո, LifeSmart էկոհամակարգը չափազանց ճկուն է: Դուք կարող եք սկսել միայն անվտանգության սենսորներից և հետագայում ավելացնել լուսավորության կամ կլիմայի կառավարում:</p></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Աշխատու՞մ է ինտերնետի անջատման դեպքում: <i class="fa-solid fa-plus"></i></div>
-                    <div class="faq-answer"><p>Այո, հիմնական գործառույթները և սցենարները պահպանվում են Խելացի Կայանի (Hub) մեջ և աշխատում են նույնիսկ առանց ինտերնետ կապի:</p></div>
-                </div>
-                <div class="faq-item">
-                    <div class="faq-question">Ի՞նչ երաշխիք եք տալիս: <i class="fa-solid fa-plus"></i></div>
-                    <div class="faq-answer"><p>Մենք տրամադրում ենք մինչև 2 տարի պաշտոնական երաշխիք սարքավորումների համար և անվճար տեխնիկական սպասարկում առաջին տարվա ընթացքում:</p></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- BLOG SECTION -->
-    <section class="blog-section">
-        <div class="container">
-            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px;">
-                <div>
-                    <span class="section-kicker">— ԲԼՈԳ ԵՎ ՆՈՐՈՒԹՅՈՒՆՆԵՐ</span>
-                    <h2 style="font-size: 32px; color: #222;">Օգտակար նյութեր</h2>
-                </div>
-                <a href="#" class="btn-ghost">Դիտել բոլորը</a>
-            </div>
-            <div class="blog-grid">
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog 1" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">Մայիս 10, 2026</span>
-                        <div class="blog-title">5 պատճառ ներդրում կատարել խելացի տուն համակարգում</div>
-                    </div>
-                </a>
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog 2" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">Ապրիլ 22, 2026</span>
-                        <div class="blog-title">Խելացի տունը 2025-ին՝ Նորարարություններ և Տենդենցներ</div>
-                    </div>
-                </a>
-                <a href="#" class="blog-card">
-                    <div class="blog-img-wrapper"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Blog 3" class="blog-img"></div>
-                    <div class="blog-content">
-                        <span class="blog-date">Մարտ 05, 2026</span>
-                        <div class="blog-title">Ի՞նչ է խելացի տունը և ինչպե՞ս այն կփոխի Ձեր կյանքը</div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- SMALLER PARALLAX CTA -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-banner">
-                <div class="cta-banner-bg"></div>
-                <div class="cta-overlay">
-                    <div class="cta-text">
-                        <h2>Փորձեք պատկերացնել, թե ինչ է խելացի տունը</h2>
-                        <p>Մեր շարժական դեմո բոքսը կգա հենց Ձեր տուն: Դուք կտեսնեք, թե ինչպես է այն աշխատում իրականում նախքան որոշում կայացնելը:</p>
-                    </div>
-                    <div class="cta-buttons">
-                        <a href="#" class="contact-btn" style="background: #fff; color: #111;">Ամրագրել հանդիպում</a>
-                        <a href="tel:+37455103090" class="btn-ghost" style="background: rgba(255,255,255,0.15); color: #fff; border: none; backdrop-filter: blur(5px);"><i class="fa-solid fa-phone"></i> Զանգահարել</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <div class="logo" style="margin-bottom: 15px;"><img src="logo.png" alt="Smartic Logo"></div>
-                    <p style="font-size: 13px; color: var(--text-muted);">LifeSmart բրենդի պաշտոնական ներկայացուցիչը Հայաստանում:</p>
-                    <div style="display: flex; gap: 15px; margin-top: 20px;">
-                        <a href="https://www.facebook.com/smarticllc" target="_blank" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" onmouseover="this.style.color=&#39;#1877F2&#39;" onmouseout="this.style.color=&#39;var(--text-muted)&#39;"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/smartic_llc/" target="_blank" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" onmouseover="this.style.color=&#39;#E4405F&#39;" onmouseout="this.style.color=&#39;var(--text-muted)&#39;"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/company/smartic-llc/" target="_blank" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" onmouseover="this.style.color=&#39;#0A66C2&#39;" onmouseout="this.style.color=&#39;var(--text-muted)&#39;"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://t.me/smarticllc" target="_blank" style="color: var(--text-muted); font-size: 18px; transition: 0.3s;" onmouseover="this.style.color=&#39;#229ED9&#39;" onmouseout="this.style.color=&#39;var(--text-muted)&#39;"><i class="fa-brands fa-telegram"></i></a>
-                    </div>
-                </div>
-                <div>
-                    <h4>Ընկերություն</h4>
-                    <ul>
-                        <li><a href="#">Գլխավոր</a></li>
-                        <li><a href="about.html">Մեր մասին</a></li>
-                        <li><a href="projects.html">Նախագծեր</a></li>
-                        <li><a href="#">Տեսականի</a>
-                <a href="contact.html">Հետադարձ Կապ</a>
-                <a href="blog.html">Բլոգ</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Ծառայություններ</h4>
-                    <ul>
-                        <li><a href="smart-home.html">Խելացի տուն</a></li>
-                        <li><a href="smart-office.html">Խելացի գրասենյակ</a></li>
-                        <li><a href="#">Անվտանգություն</a></li>
-                        <li><a href="#">Լուսավորություն</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Կապ մեզ հետ</h4>
-                    <ul>
-                        <li><a href="#">Ռուբինյանց 27/3, Երևան</a></li>
-                        <li><a href="#">+374 55 103 090</a></li>
-                        <li><a href="#">info@smartic.am</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                &copy; 2026 Smartic. Բոլոր իրավունքները պաշտպանված են:
-            </div>
-        </div>
-    </footer>
-
-    <!-- STICKY WHATSAPP -->
-    <a href="https://wa.me/37455103090" target="_blank" class="whatsapp-float" title="Contact on WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
-
-    <script>
+</div>
+</footer>
+<!-- STICKY WHATSAPP -->
+<a class="whatsapp-float" href="https://wa.me/37455103090" target="_blank" title="Contact on WhatsApp">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+<script>
         // Header shadow on scroll
         window.addEventListener('scroll', () => {
             const header = document.getElementById('header');
